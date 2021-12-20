@@ -8,7 +8,7 @@ import Routes from './navigation/Routes.jsx';
 
 export default function App() {
   return (
-    <Routes />
+    <Routes/>
   );
 };
 

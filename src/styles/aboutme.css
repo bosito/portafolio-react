@@ -1,4 +1,4 @@
-.aboutme{
+.aboutme {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.aboutmeCont{
+.aboutmeCont {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,13 +17,12 @@
     width: 80%;
     height: 80%;
     border-radius: 40px;
-background: linear-gradient(225deg, #111212, #141515);
-box-shadow:  -24px 24px 48px #0d0d0d,
-             24px -24px 48px #191b1b;
+    background: linear-gradient(225deg, #111212, #141515);
+    box-shadow: -24px 24px 48px #0d0d0d, 24px -24px 48px #191b1b;
     /* overflow: hidden; */
 }
 
-.contImgAbout{
+.contImgAbout {
     background-image: url("https://www.innovationplans.com/idesign/personala/img/hero.jpg");
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
@@ -35,7 +34,7 @@ box-shadow:  -24px 24px 48px #0d0d0d,
     height: 100%;
 }
 
-.contInfoAbout{
+.contInfoAbout {
     display: flex;
     flex-direction: column;
     margin: 15px;
@@ -44,7 +43,7 @@ box-shadow:  -24px 24px 48px #0d0d0d,
     color: white;
 }
 
-.infoAbout{
+.infoAbout {
     cursor: default;
     font-size: 18px;
     text-align: center;

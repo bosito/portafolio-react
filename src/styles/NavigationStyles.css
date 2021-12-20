@@ -1,4 +1,4 @@
-.NavigationContainer{
+.NavigationContainer {
     position: absolute;
     top: 0;
     width: 100%;
@@ -11,17 +11,17 @@
     transition: 1s;
 }
 
-.NavigationContainer:hover{
+.NavigationContainer:hover {
     transition: 1s;
     background: rgba(255, 255, 255, 0.103);
     box-shadow: 0 8px 32px 0 rgba(55, 57, 80, 0.37);
-    backdrop-filter: blur( 13.5px );
-    -webkit-backdrop-filter: blur( 13.5px );
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
-.contenTitleNavigation{
+.contenTitleNavigation {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -30,31 +30,29 @@
     margin-left: 5%;
 }
 
-.contenSubTitle{
+.contenSubTitle {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 65%;
     height: 100%;
     align-items: center;
     justify-content: space-evenly;
     margin-right: 5%;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.titleNavigation{
-    transition: 1s;
+.titleNavigation {
     color: white;
     font-size: 16px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-weight: bold;
-    
 }
 
-.t_efect{
-    background: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+.t_efect {
+    background: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
     cursor: default;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -62,11 +60,19 @@ a{
     font-size: 19px;
 }
 
-.e_efect:hover{
-    
-    -webkit-background-clip: text;
+.e_efect:hover {
     -webkit-text-fill-color: transparent;
-    background:linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+    -webkit-background-clip: text;
     background-clip: text;
-    transition: 1s;
+}
+
+.navigation_fixed {
+    position: fixed;
+    background-color: rgb(7, 7, 7);
+    top: -60px;
+    transition: top 0.3s;
+}
+.navigation_fixed:hover{
+    background-color: rgb(7, 7, 7);
 }
