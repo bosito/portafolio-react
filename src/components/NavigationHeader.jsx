@@ -1,11 +1,20 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import '../styles/NavigationStyles.css';
+import { header_data } from "../config/title_navigation_data";
 
 export default function NavigationHeader() {
 
     const fixtedHeaderRef = useRef();
     const [indexNavigation, setIndexNavigation] = useState(0);
-    const titleNavigation = ["Home", "About", "Skills", "Projects", "Contact", "Blog"];
+    const [titleNavigation, setTitleNavigation] = useState([]);
+
+    useEffect(() => {
+
+        if (header_data) {
+            setTitleNavigation(header_data);   
+        };
+
+    }, [header_data]);
 
     window.onscroll = () => navigation_down_bar();
 
@@ -30,10 +39,10 @@ export default function NavigationHeader() {
                 </div>
                 <div className="contenSubTitle" >
                     {
-                        titleNavigation.map((title, index) => {
+                        titleNavigation.map((data, index) => {
                             return (
-                                <a href="/" key={index} onClick={(e) => select_navigation(e, index)} >
-                                    <p className={`${indexNavigation === index && "t_efect"} titleNavigation e_efect`} >{title}</p>
+                                <a href={data.href_menu} key={index} onClick={(e) => select_navigation(e, index)} >
+                                    <p className={`${indexNavigation === index && "t_efect"} titleNavigation e_efect`} >{data.title}</p>
                                 </a>
                             )
                         })
@@ -48,11 +57,11 @@ export default function NavigationHeader() {
                 </div>
                 <div className="contenSubTitle" >
                     {
-                        titleNavigation.map((title, index) => {
+                        titleNavigation.map((data, index) => {
                             return (
-                                <a href="/" key={index} onClick={(e) => select_navigation(e, index)} >
-                                    <p className={`${indexNavigation === index && "t_efect"} titleNavigation e_efect`} >{title}</p>
-                                </a>
+                                <a href={data.href_menu} key={index} onClick={(e) => select_navigation(e, index)} >
+                                <p className={`${indexNavigation === index && "t_efect"} titleNavigation e_efect`} >{data.title}</p>
+                            </a>
                             )
                         })
 
