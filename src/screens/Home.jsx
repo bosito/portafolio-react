@@ -11,6 +11,7 @@ import 'swiper/swiper.min.css';
 import "swiper/components/autoplay/package.json";
 
 import adorno_svg from '../svg/adorno_file.svg';
+import adorno3 from '../svg/adorno3.svg';
 
 export default function Home() {
     return (
@@ -20,7 +21,7 @@ export default function Home() {
             <Skills />
             <Projects />
             <Contact />
-            <Adorno />
+            <Adorno backgroundImage={adorno_svg} />
         </Fragment>
     );
 };
@@ -47,14 +48,21 @@ function AboutMe() {
 
 function Contact() {
     return (
-        <section>
+        <section id='5' >
 
         </section>
     );
 };
 
-function Adorno() {
+function Adorno({ backgroundImage, styleOption={} }) {
     return (
-        <div className='adorno' style={{ backgroundImage: `url(${adorno_svg})` }} />
+        <div
+            className='adorno'
+            style={{
+                backgroundImage: `url(${backgroundImage})`,
+                backgroundColor: '#131414',
+                ...styleOption
+            }}
+        />
     );
 };

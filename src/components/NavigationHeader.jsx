@@ -8,18 +8,19 @@ export default function NavigationHeader() {
     const [indexNavigation, setIndexNavigation] = useState(0);
     const [titleNavigation, setTitleNavigation] = useState([]);
 
+    window.onscroll = () => navigation_down_bar();
+
     useEffect(() => {
 
         if (header_data) {
-            setTitleNavigation(header_data);   
+            setTitleNavigation(header_data); 
+            console.log('data title -->', header_data[1].href_menu);  
         };
 
     }, [header_data]);
 
-    window.onscroll = () => navigation_down_bar();
-
     const select_navigation = (e, index) => {
-        e.preventDefault();
+        //e.preventDefault();
         setIndexNavigation(index);
     };
 
@@ -46,7 +47,6 @@ export default function NavigationHeader() {
                                 </a>
                             )
                         })
-
                     }
                 </div>
             </nav>

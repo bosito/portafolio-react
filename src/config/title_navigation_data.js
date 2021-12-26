@@ -5,22 +5,22 @@ export const header_data = [
     },
     {
         title: 'About',
-        href_menu: '#1'
-    },
-    {
-        title: 'Skills',
         href_menu: '#2'
     },
     {
-        title: 'Projects',
+        title: 'Skills',
         href_menu: '#3'
     },
     {
-        title: 'Contact',
+        title: 'Projects',
         href_menu: '#4'
     },
     {
-        title: 'Blog',
+        title: 'Contact',
         href_menu: '#5'
+    },
+    {
+        title: 'Blog',
+        href_menu: '#6'
     },
 ]

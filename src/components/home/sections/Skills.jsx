@@ -1,6 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { EffectCoverflow, Pagination, Autoplay } from 'swiper/core';
+
+//list_images
+import { inages_list_skils } from '../../../config/inages_list_skills';
 
 //styles
 import '../../../styles/skills.css';
@@ -13,20 +16,20 @@ import "swiper/components/autoplay/package.json";
 SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
 
 export default function Skills() {
-    const [listCadSkills, setListCadSkills] = useState(['test', 'test', 'test', 'test', 'test', 'test']);
+    const [listCadSkills, setListCadSkills] = useState([]);
+
+    useEffect(() => {
+
+        setListCadSkills(inages_list_skils);
+
+    }, []);
+
     return (
-        <section className="skills">
+        <section className="skills" id='3' >
 
             <div className="contSwiper_skill">
 
-                <div className="contenTitleSkills">
-                    <div className="contIconskills" >
-                        <img src={iconoSkills} style={{ width: '100%', height: '100%', }} />
-                    </div>
-                    <p className="txtSkils">
-                        My Skills
-                    </p>
-                </div>
+                <TilteComponent title="My Skills" />
 
                 <SwiperLocalComponent
                     listCadSkills={listCadSkills}
@@ -42,7 +45,20 @@ export default function Skills() {
             </div>
 
         </section>
-    )
+    );
+};
+
+function TilteComponent({ title }) {
+    return (
+        <div className="contenTitleSkills">
+            <div className="contIconskills" >
+                <img src={iconoSkills} style={{ width: '100%', height: '100%', }} />
+            </div>
+            <p className="txtSkils">
+                {title}
+            </p>
+        </div>
+    );
 };
 
 function SwiperLocalComponent(props) {
@@ -61,13 +77,13 @@ function SwiperLocalComponent(props) {
             translate='yes'
             //onSlideChange={() => console.log('slide change')}
             //onSwiper={(swiper) => console.log(swiper)}
-            autoplay={{ delay: 5000, reverseDirection: reverseDirection }}
+            autoplay={{ delay: 3500, reverseDirection: reverseDirection }}
         >
             {
                 listCadSkills.map((cards, index) => {
                     return (
                         <SwiperSlide className='swipe_slide_conten_skill' key={index} >
-                            <CardSkillsComponent />
+                            <CardSkillsComponent requiereImage={cards} />
                         </SwiperSlide>
                     )
                 })
@@ -76,13 +92,15 @@ function SwiperLocalComponent(props) {
     );
 };
 
-function CardSkillsComponent(props) {
-    const { requiereImage, href } = props;
+function CardSkillsComponent({ requiereImage }) {
     return (
         <div className='conten_card_skill' >
-            <a href='/' style={{ width: '100%', height: '100%' }} >
-                <img src='' style={{ width: '100%', height: '100%' }} />
-            </a>
+
+            <img
+                src={requiereImage}
+                style={{ width: '100%', height: '100%' }}
+            />
+
         </div>
     );
 };

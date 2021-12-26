@@ -14,7 +14,7 @@ SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
 export default function Projects() {
     const [listCadSkills, setListCadSkills] = useState(['test', 'test', 'test']);
     return (
-        <section className="proyect">
+        <section className="proyect" id='4'>
             <div className="contSwiper">
 
                 <TitleComponent/>
