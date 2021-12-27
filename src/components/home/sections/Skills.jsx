@@ -3,11 +3,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { EffectCoverflow, Pagination, Autoplay } from 'swiper/core';
 
 //list_images
-import { inages_list_skils } from '../../../config/inages_list_skills';
+import { images_list_skils } from '../../../config/inages_list_skills';
 
 //styles
 import '../../../styles/skills.css';
-import iconoSkills from "../../../svg/iconoSkills.svg"
+import iconoSkills from "../../../styles/images/list.png";
 
 //swip stiles
 import 'swiper/swiper.min.css';
@@ -20,7 +20,7 @@ export default function Skills() {
 
     useEffect(() => {
 
-        setListCadSkills(inages_list_skils);
+        setListCadSkills(images_list_skils);
 
     }, []);
 
@@ -52,7 +52,7 @@ function TilteComponent({ title }) {
     return (
         <div className="contenTitleSkills">
             <div className="contIconskills" >
-                <img src={iconoSkills} style={{ width: '100%', height: '100%', }} />
+                <img src={iconoSkills} style={{ width: '100%', height: '100%', }} alt="img_title" />
             </div>
             <p className="txtSkils">
                 {title}
@@ -77,7 +77,7 @@ function SwiperLocalComponent(props) {
             translate='yes'
             //onSlideChange={() => console.log('slide change')}
             //onSwiper={(swiper) => console.log(swiper)}
-            autoplay={{ delay: 3500, reverseDirection: reverseDirection }}
+            autoplay={{ delay: 2000, reverseDirection: reverseDirection }}
         >
             {
                 listCadSkills.map((cards, index) => {

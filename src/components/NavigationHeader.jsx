@@ -12,12 +12,9 @@ export default function NavigationHeader() {
 
     useEffect(() => {
 
-        if (header_data) {
-            setTitleNavigation(header_data); 
-            console.log('data title -->', header_data[1].href_menu);  
-        };
+        setTitleNavigation(header_data);
 
-    }, [header_data]);
+    }, []);
 
     const select_navigation = (e, index) => {
         //e.preventDefault();
@@ -60,8 +57,8 @@ export default function NavigationHeader() {
                         titleNavigation.map((data, index) => {
                             return (
                                 <a href={data.href_menu} key={index} onClick={(e) => select_navigation(e, index)} >
-                                <p className={`${indexNavigation === index && "t_efect"} titleNavigation e_efect`} >{data.title}</p>
-                            </a>
+                                    <p className={`${indexNavigation === index && "t_efect"} titleNavigation e_efect`} >{data.title}</p>
+                                </a>
                             )
                         })
 

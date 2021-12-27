@@ -11,7 +11,6 @@ import 'swiper/swiper.min.css';
 import "swiper/components/autoplay/package.json";
 
 import adorno_svg from '../svg/adorno_file.svg';
-import adorno3 from '../svg/adorno3.svg';
 
 export default function Home() {
     return (

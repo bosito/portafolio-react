@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { EffectCoverflow, Pagination, Autoplay } from 'swiper/core';
 
@@ -11,8 +11,17 @@ import "swiper/components/autoplay/package.json";
 
 SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
 
+const data = ['test', 'test', 'test'];
+
 export default function Projects() {
-    const [listCadSkills, setListCadSkills] = useState(['test', 'test', 'test']);
+    const [listCadSkills, setListCadSkills] = useState([]);
+
+    useEffect(() => {
+
+        setListCadSkills(data);
+
+    }, []);
+
     return (
         <section className="proyect" id='4'>
             <div className="contSwiper">
@@ -38,7 +47,7 @@ export default function Projects() {
                                 <SwiperSlide className='swipe_slide_conten' >
                                     <div className='conten_card' >
                                         <a href='/' style={{ width: '100%', height: '100%' }} >
-                                            <img src='' style={{ width: '100%', height: '100%' }} />
+                                            <img src='wolas' style={{ width: '100%', height: '100%' }} alt={`card_number ${index}`} />
                                         </a>
                                     </div>
                                 </SwiperSlide>
@@ -56,7 +65,7 @@ function TitleComponent() {
     return (
         <div className="contenTitleProyects">
             <div className="contIcon_proyect" >
-                <img src={iconoSkills} style={{ width: '100%', height: '100%', }} alt='icon_proyec' />
+                <img src={iconoSkills} style={{ width: '100%', height: '100%', }} alt='icon_skill' />
             </div>
             <p className="txt_proyect">
                 Projects
