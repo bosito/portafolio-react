@@ -5,50 +5,53 @@ import Skills from '../components/home/sections/Skills.jsx';
 
 import '../styles/aboutme.css';
 import '../styles/adorno_style.css';
+import '../styles/contact_style.css';
 
 //swip stiles
 import 'swiper/swiper.min.css';
 import "swiper/components/autoplay/package.json";
 
 import adorno_svg from '../svg/adorno_file.svg';
+import adorno_svg2 from '../svg/adorno_file.svg';
 
 export default function Home() {
     return (
         <Fragment>
             <Precentation />
-            <AboutMe />
-            <Skills />
             <Projects />
+            {/* <Adorno backgroundImage={adorno_svg2} styleOption={{ height: 200,  justifyContent: 'center', alignItems: 'center' }} /> */}
+            {/* <AboutMe /> */}
+            <Skills />
+            
             <Contact />
-            <Adorno backgroundImage={adorno_svg} />
         </Fragment>
     );
 };
 
-function AboutMe() {
-    return (
-        <section className="aboutme" id='2' >
-            {/* <HeaderSvg/> */}
-            <div className="aboutmeCont" >
-                <div className="contImgAbout" />
+// function AboutMe() {
+//     return (
+//         <section className="aboutme" id='2' >
+//             {/* <HeaderSvg/> */}
+//             <div className="aboutmeCont" >
+//                 {/* <div className="contImgAbout" /> */}
 
-                <div className="contInfoAbout">
-                    <h2 className="infoAbout  t_samp" style={{ fontSize: 30 }} >JS DEVELOPER</h2>
-                    <p className="infoAbout">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Omnis porro odit vel animi, aspernatur fugit ipsa perspiciatis mollitia repudiandae!
-                        Architecto necessitatibus reprehenderit reiciendis ipsam itaque nostrum veniam omnis eveniet facere!
-                    </p>
-                </div>
-            </div>
-        </section>
-    );
-};
+//                 <div className="contInfoAbout">
+//                     <h2 className="infoAbout  t_samp" style={{ fontSize: 30 }} >
+//                         JS DEVELOPER
+//                     </h2>
+//                     <p className="infoAbout">
+                            
+//                     </p>
+//                 </div>
+//             </div>
+//         </section>
+//     );
+// };
 
 function Contact() {
     return (
-        <section id='5' >
-
+        <section className="contact" id='5' >
+             <Adorno backgroundImage={adorno_svg} styleOption={{ position: 'absolute', bottom: 0 }}/>
         </section>
     );
 };

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  style="margin:auto;background:#131414;display:block;position:relative" width="1280" height="229"
- viewBox="0 0 1280 229">
+  style="margin:auto;background:#131414;display:block;position:relative"
+>
   <g transform="translate(640,114.5) scale(1,1) translate(-640,-114.5)">
     <linearGradient id="lg-0.3621752446744053" x1="0" x2="1" y1="0" y2="0">
       <stop stop-color="#232323" offset="0"></stop>
@@ -32,3 +32,5 @@
     </path>
   </g>
 </svg>
+
+ <!--  height="229" -->
