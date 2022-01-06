@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import ScrollReveal from 'scrollreveal';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { EffectCoverflow, Pagination, Autoplay } from 'swiper/core';
 
@@ -23,7 +24,7 @@ export default function Projects() {
     }, []);
 
     return (
-        <section className="proyect" id='4'>
+        <section className="proyect" id='4' >
             <div className="contSwiper">
 
                 <TitleComponent/>
@@ -62,8 +63,19 @@ export default function Projects() {
 };
 
 function TitleComponent() {
+    const titleProyectRef = useRef();
+
+    useEffect(() => {
+
+        if (titleProyectRef.current) {
+            ScrollReveal().reveal(titleProyectRef.current,{ reset: true, delay: 500 })
+        };
+
+    }, []);
+
+
     return (
-        <div className="contenTitleProyects">
+        <div className="contenTitleProyects" ref={titleProyectRef} >
             <div className="contIcon_proyect" >
                 <img src={iconoSkills} style={{ width: '100%', height: '100%', }} alt='icon_skill' />
             </div>

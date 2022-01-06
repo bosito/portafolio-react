@@ -94,7 +94,7 @@ function SwiperLocalComponent(props) {
 
 function CardSkillsComponent({ requiereImage }) {
     return (
-        <div className='conten_card_skill' >
+        <div className='conten_card_skill'>
 
             <img
                 src={requiereImage}

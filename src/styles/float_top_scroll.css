@@ -1,0 +1,59 @@
+.float_top_scroll {
+    /* display: none; */
+    position: fixed;
+    cursor: pointer;
+    z-index: 3;
+    border-radius: 50px;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+    box-shadow: 9px 8px 54px 0px rgb(75, 64, 1);
+}
+
+.animation_open{
+    animation: openButon 2s ease 0s 1 normal forwards;
+}
+
+.animation_close{
+    animation: closeButon 0.7s ease 0s 1 normal forwards;
+}
+
+@keyframes openButon {
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale(0);
+        transform-origin: center center;
+    }
+
+    20% {
+        animation-timing-function: ease-in;
+        transform: scale(0.91);
+    }
+
+    27% {
+        animation-timing-function: ease-out;
+        transform: scale(0.98);
+    }
+
+    50% {
+        animation-timing-function: ease-in;
+        transform: scale(0.87);
+    }
+
+    70% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+    }
+}
+
+@keyframes closeButon {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
