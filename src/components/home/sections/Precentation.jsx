@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import NavigationHeader from '../../NavigationHeader';
 import ScrollReveal from 'scrollreveal';
+import { Element } from 'react-scroll';
 
 import '../../../styles/Precentacion.css';
 
@@ -16,7 +17,7 @@ export default function Precentation() {
     }, []);
 
     return (
-        <section className="PrecentacionContainer" id='1' >
+        <Element className="PrecentacionContainer" id='1' >
             <NavigationHeader />
 
             <div className="contenTitlePrecentacion">
@@ -29,6 +30,6 @@ export default function Precentation() {
             </div>
 
 
-        </section>
+        </Element>
     );
 };

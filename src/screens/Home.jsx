@@ -1,8 +1,11 @@
-import React, { Fragment, useRef } from 'react';
+import React, { Fragment, useRef, useEffect, useState } from 'react';
 import * as Scroll from 'react-scroll';
+import Adorno from '../components/home/Adorno.jsx';
 import Precentation from '../components/home/sections/Precentation.jsx';
 import Projects from '../components/home/sections/Proyects.jsx';
 import Skills from '../components/home/sections/Skills.jsx';
+
+import arrow_icon from '../svg/uparrow_float_buton.svg';
 
 import '../styles/aboutme.css';
 import '../styles/adorno_style.css';
@@ -18,16 +21,16 @@ import adorno_svg from '../svg/adorno_file.svg';
 
 export default function Home() {
     return (
-            <Fragment>
-                <Precentation />
-                <Projects />
-                {/* <Adorno backgroundImage={adorno_svg2} styleOption={{ height: 200,  justifyContent: 'center', alignItems: 'center' }} /> */}
-                {/* <AboutMe /> */}
-                <Skills />
+        <Fragment>
+            <Precentation />
+            <Projects />
+            {/* <Adorno backgroundImage={adorno_svg2} styleOption={{ height: 200,  justifyContent: 'center', alignItems: 'center' }} /> */}
+            {/* <AboutMe /> */}
+            <Skills />
 
-                <Contact />
-                <FolatTopScroll />
-            </Fragment>
+            <Contact />
+            <FolatTopScroll />
+        </Fragment>
     );
 };
 
@@ -53,45 +56,44 @@ export default function Home() {
 
 function Contact() {
     return (
-        <section className="contact" id='5' >
+        <Scroll.Element className="contact" id='5' >
             <Adorno backgroundImage={adorno_svg} styleOption={{ position: 'absolute', bottom: 0 }} />
-        </section>
+        </Scroll.Element>
     );
 };
 
-function Adorno({ backgroundImage, styleOption = {} }) {
-    return (
-        <div
-            className='adorno'
-            style={{
-                backgroundImage: `url(${backgroundImage})`,
-                backgroundColor: '#131414',
-                ...styleOption
-            }}
-        />
-    );
-};
-
-function FolatTopScroll(props) {
-    const { } = props;
-
+function FolatTopScroll() {
     const buttonScrollRef = useRef();
+    const [typeAnimation, setTypeAnimation] = useState(false);
 
-    window.onscroll = () => navigation_down_bar();
+    useEffect(() => {
 
-    const navigation_down_bar = () => {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            buttonScrollRef.current.className = "float_top_scroll animation_open"
-        } else {
-            buttonScrollRef.current.className = "float_top_scroll animation_close"
-        }
-    };
+        const navigation_down_bar = (e) => {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                //buttonScrollRef.current.className = "float_top_scroll animation_open"
+                setTypeAnimation(true);
+            } else {
+                //buttonScrollRef.current.className = "float_top_scroll animation_close"
+                setTypeAnimation(false);
+            }
+        };
+    
+        window.addEventListener("scroll", navigation_down_bar, true);
 
+        return () => window.removeEventListener("scroll", navigation_down_bar, true);
+
+    }, []);
+
+    
     const scrollToTop = () => Scroll.animateScroll.scrollToTop();
 
     return (
-        <div className='float_top_scroll' ref={buttonScrollRef} onClick={scrollToTop} >
-
+        <div
+            className={`float_top_scroll ${typeAnimation ? "animation_open" : "animation_close"}`}
+            ref={buttonScrollRef}
+            onClick={scrollToTop}
+        >
+            <img src={arrow_icon} style={{ width: '60%', height: '60%', }} alt='arrow_icon'  />
         </div>
     );
 };

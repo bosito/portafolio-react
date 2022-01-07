@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ScrollReveal from 'scrollreveal';
+import { Element } from 'react-scroll';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { EffectCoverflow, Pagination, Autoplay } from 'swiper/core';
 
@@ -24,7 +25,7 @@ export default function Projects() {
     }, []);
 
     return (
-        <section className="proyect" id='4' >
+        <Element className="proyect" id='4' >
             <div className="contSwiper">
 
                 <TitleComponent/>
@@ -58,7 +59,7 @@ export default function Projects() {
                 </Swiper>
             </div>
 
-        </section>
+        </Element>
     )
 };
 

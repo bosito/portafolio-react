@@ -1,6 +1,9 @@
 .float_top_scroll {
     /* display: none; */
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     z-index: 3;
     border-radius: 50px;

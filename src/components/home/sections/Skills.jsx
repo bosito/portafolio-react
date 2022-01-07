@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Element } from 'react-scroll';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { EffectCoverflow, Pagination, Autoplay } from 'swiper/core';
 
@@ -25,7 +26,7 @@ export default function Skills() {
     }, []);
 
     return (
-        <section className="skills" id='3' >
+        <Element className="skills" id='3' >
 
             <div className="contSwiper_skill">
 
@@ -44,7 +45,7 @@ export default function Skills() {
 
             </div>
 
-        </section>
+        </Element>
     );
 };
 

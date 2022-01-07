@@ -17,8 +17,6 @@
     box-shadow: 0 8px 32px 0 rgba(55, 57, 80, 0.37);
     backdrop-filter: blur(13.5px);
     -webkit-backdrop-filter: blur(13.5px);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 .contenTitleNavigation {
@@ -45,6 +43,7 @@ a {
 }
 
 .titleNavigation {
+    cursor: pointer;
     color: white;
     font-size: 16px;
     font-family: "Courier New", Courier, monospace;
