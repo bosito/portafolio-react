@@ -7,6 +7,7 @@ export default function Adorno({ backgroundImage, styleOption = {} }) {
             style={{
                 backgroundImage: `url(${backgroundImage})`,
                 backgroundColor: '#131414',
+                borderImageRepeat: 'unset',
                 ...styleOption
             }}
         />

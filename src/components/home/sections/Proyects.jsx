@@ -25,7 +25,7 @@ export default function Projects() {
     }, []);
 
     return (
-        <Element className="proyect" id='4' >
+        <Element className="proyect_vew" id='4' >
             <div className="contSwiper">
 
                 <TitleComponent/>

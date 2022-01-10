@@ -3,6 +3,11 @@
   padding: 0px;
 }
 
+:root{
+  ---color-background: #131414;
+  --second-background: #303030;
+}
+
 html{
   scroll-behavior: smooth;
 }

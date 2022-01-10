@@ -1,64 +1,88 @@
 import React, { Fragment, useRef, useEffect, useState } from 'react';
 import * as Scroll from 'react-scroll';
-import Adorno from '../components/home/Adorno.jsx';
+import Particles from "react-tsparticles";
+import conf_particles from '../config/conf_prticles.json';
 import Precentation from '../components/home/sections/Precentation.jsx';
 import Projects from '../components/home/sections/Proyects.jsx';
 import Skills from '../components/home/sections/Skills.jsx';
+import Contact from '../components/home/sections/Contact.jsx';
 
 import arrow_icon from '../svg/uparrow_float_buton.svg';
 
 import '../styles/aboutme.css';
 import '../styles/adorno_style.css';
-import '../styles/contact_style.css';
+import '../styles/separator.css';
 import '../styles/float_top_scroll.css';
 
 //swip stiles
 import 'swiper/swiper.min.css';
 import "swiper/components/autoplay/package.json";
 
-import adorno_svg from '../svg/adorno_file.svg';
-//import adorno_svg2 from '../svg/adorno_file.svg';
+import fondoPrecentacion from '../styles/images/fondoPrecentacion.jpg';
+import herard_animate from '../svg/herard_animate.svg';
 
 export default function Home() {
     return (
         <Fragment>
+            <Particles
+                height="10%"
+                width='100%'
+                options={{
+                    ...conf_particles,
+                    autoPlay: true,
+                    zLayers: 5,
+                    background: {
+                        image: `url(${fondoPrecentacion})`,
+                        //image: "url('../styles/images/fondoPrecentacion.jpg')",
+                        //image: "url('https://particles.js.org/images/background3.jpg')",
+                        position: "50% 50%",
+                        repeat: "no-repeat",
+                        size: "cover"
+                    },
+                    backgroundMask: {
+                        composite: "destination-out",
+                        cover: {
+                            color: {
+                                value: {
+                                    r: 19,
+                                    g: 20,
+                                    b: 20
+                                }
+                            },
+                            opacity: 1
+                        },
+                        enable: true
+                    },
+                }}
+            />
             <Precentation />
-            <Projects />
-            {/* <Adorno backgroundImage={adorno_svg2} styleOption={{ height: 200,  justifyContent: 'center', alignItems: 'center' }} /> */}
+            <div className="separator" >
+                <p className='slogan'>Made with <samp className='slog_samp' >love</samp>, not with a keyboard</p>
+                <img src={herard_animate} alt="" style={{ width: 60, height: 30 }} />
+            </div>
             {/* <AboutMe /> */}
+            <Projects />
             <Skills />
-
             <Contact />
             <FolatTopScroll />
         </Fragment>
     );
 };
 
-// function AboutMe() {
-//     return (
-//         <section className="aboutme" id='2' >
-//             {/* <HeaderSvg/> */}
-//             <div className="aboutmeCont" >
-//                 {/* <div className="contImgAbout" /> */}
-
-//                 <div className="contInfoAbout">
-//                     <h2 className="infoAbout  t_samp" style={{ fontSize: 30 }} >
-//                         JS DEVELOPER
-//                     </h2>
-//                     <p className="infoAbout">
-
-//                     </p>
-//                 </div>
-//             </div>
-//         </section>
-//     );
-// };
-
-function Contact() {
+function AboutMe() {
     return (
-        <Scroll.Element className="contact" id='5' >
-            <Adorno backgroundImage={adorno_svg} styleOption={{ position: 'absolute', bottom: 0 }} />
-        </Scroll.Element>
+        <section className="aboutme" id='2' >
+            {/* <div className="aboutmeCont" >
+                <div className="contInfoAbout">
+                    <h2 className="infoAbout  t_samp" style={{ fontSize: 30 }} >
+                        JS DEVELOPER
+                    </h2>
+                    <p className="infoAbout">
+
+                    </p>
+                </div>
+            </div> */}
+        </section>
     );
 };
 
@@ -77,14 +101,13 @@ function FolatTopScroll() {
                 setTypeAnimation(false);
             }
         };
-    
+
         window.addEventListener("scroll", navigation_down_bar, true);
 
         return () => window.removeEventListener("scroll", navigation_down_bar, true);
 
     }, []);
 
-    
     const scrollToTop = () => Scroll.animateScroll.scrollToTop();
 
     return (
@@ -93,7 +116,7 @@ function FolatTopScroll() {
             ref={buttonScrollRef}
             onClick={scrollToTop}
         >
-            <img src={arrow_icon} style={{ width: '60%', height: '60%', }} alt='arrow_icon'  />
+            <img src={arrow_icon} style={{ width: '60%', height: '60%', }} alt='arrow_icon' />
         </div>
     );
 };

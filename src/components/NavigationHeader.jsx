@@ -18,21 +18,27 @@ export default function NavigationHeader() {
     useEffect(() => {
 
         const remove_select_nav = (e) => {
-            //console.log('e -->', e.currentTarget.scrollY );
             const actual_scroll_value = e.currentTarget.scrollY;
-            //console.log('vlue scrol -->', actual_scroll_value);
-            if (fixtedHeaderRef.current) {
-                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                    //fixtedHeaderRef.current.style.top = "0"
-                } else {
-                    //fixtedHeaderRef.current.style.top = "-60px"
-                };
-            };
-        }
-        
-        window.addEventListener("scroll", remove_select_nav,false);
 
-        return () => window.removeEventListener("scroll", remove_select_nav,false);
+            const val_limit_scroll = [0, 587, 1174, 1761];
+
+            if (actual_scroll_value >= val_limit_scroll[0]) {
+                setIndexNavigation(0);
+            } 
+            if (actual_scroll_value >= val_limit_scroll[1]) {
+                setIndexNavigation(1);
+            }
+            if (actual_scroll_value >= val_limit_scroll[2]) {
+                setIndexNavigation(2);
+            }
+            if (actual_scroll_value >= val_limit_scroll[3]) {
+                setIndexNavigation(3);
+            }
+        }
+
+        window.addEventListener("scroll", remove_select_nav, false);
+
+        return () => window.removeEventListener("scroll", remove_select_nav, false);
 
     }, []);
 

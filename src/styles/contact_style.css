@@ -1,8 +1,152 @@
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: #131414;
+    background-color: var(---color-background);
+    justify-content: center;
+    align-items: center;
+}
+
+.content_form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 80%;
+    height: 76%;
+    background-color: var(--second-background);
+}
+
+.conten_tabs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 35px;
+}
+
+.buton_tabs {
+    width: 200px;
+    height: 100%;
+    background-color: #3f3e3e;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-width: 0px;
+    color: white;
+}
+
+.view_cont_type {
+    display: flex;
+    flex: 1;
+}
+
+.networks {
+    flex: 0.6;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.works {
+    justify-content: center;
+}
+
+.form_cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    width: 250px;
+    text-align: start;
+    margin: 5px;
+}
+
+.icon_cont {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.icon_net {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.cont_buton_netkork {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.inpu_cont {
+    display: flex;
+    width: 80%;
+    height: 30px;
+    margin-top: 15px;
+    justify-content: center;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.input {
+    display: flex;
+    width: 100%;
+    border-style: none;
+    border: 0;
+    outline: none;
+}
+
+.inp_messag {
+    height: 100px;
+    background-color: white;
+}
+
+.but_envi {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-style: none;
+    background: linear-gradient(62deg, #fbab7e 0%, #f7ce68, #f3b824, #ffdd8c 100%);
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
+    background-size: 800% 400%;
+}
+
+.but_envi:hover {
+    animation: gradient 3s infinite;
+}
+
+.but_envi:active {
+    animation: gradient 3s infinite;
+    transform: scale(0.9);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
