@@ -8,7 +8,7 @@ export const header_data = [
     //     href_menu: '#2'
     // },
     {
-        title: 'Projects',
+        title: 'Works',
         href_menu: '4'
     },
     {

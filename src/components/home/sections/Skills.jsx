@@ -26,25 +26,17 @@ export default function Skills() {
     }, []);
 
     return (
-        <Element className="skills" id='3' >
-
+        <Element className="skills" id='3'>
             <div className="contSwiper_skill">
 
-                <TilteComponent title="My Skills" />
+                <TilteComponent title="Skills" />
 
                 <SwiperLocalComponent
                     listCadSkills={listCadSkills}
                     reverseDirection={false}
                 />
 
-                <SwiperLocalComponent
-                    listCadSkills={listCadSkills}
-                    reverseDirection={true}
-                />
-
-
             </div>
-
         </Element>
     );
 };
@@ -69,8 +61,8 @@ function SwiperLocalComponent(props) {
             className='swiper_principal_skill'
             //effect='coverflow'
             slidesPerGroup={1}
-            spaceBetween={20}
-            slidesPerView={4}
+            spaceBetween={3}
+            slidesPerView={8}
             loop={true}
             loopFillGroupWithBlank={true}
             grabCursor={true}
@@ -99,7 +91,7 @@ function CardSkillsComponent({ requiereImage }) {
 
             <img
                 src={requiereImage}
-                style={{ width: '100%', height: '100%' }}
+                style={{ width: 120, height: 120, borderRadius: 100, resizeMode : 'contain'  }}
             />
 
         </div>
