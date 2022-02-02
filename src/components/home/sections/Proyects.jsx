@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
+import Adorno from '../Adorno';
+import adorno_svg from '../../../svg/adorno2.svg';
 import ScrollReveal from 'scrollreveal';
 import { Element } from 'react-scroll';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -26,8 +28,9 @@ export default function Projects() {
 
     return (
         <Element className="proyect_vew" id='4' >
-            <div className="contSwiper">
-
+            <div className="contSwiper" //style={{ position: 'absolute',}} 
+            >
+            
                 <TitleComponent/>
 
                 <Swiper
@@ -59,6 +62,7 @@ export default function Projects() {
                 </Swiper>
             </div>
 
+            <Adorno backgroundImage={adorno_svg} styleOption={{  position: 'absolute',  bottom: -120 , height: 250, zIndex: 1, backgroundColor: 'transparent' }} />
         </Element>
     )
 };

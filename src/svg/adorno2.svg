@@ -1,5 +1,837 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path fill="#273036" fill-opacity="1"
-        d="M0,160L80,149.3C160,139,320,117,480,133.3C640,149,800,203,960,229.3C1120,256,1280,256,1360,256L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
-    </path>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    style="margin:auto;background:rgba(NaN, NaN, NaN, 0);display:block;z-index:1;position:relative" width="1917"
+    height="248" preserveAspectRatio="xMidYMid" viewBox="0 0 1917 248">
+    <g transform="translate(958.5,124) scale(1,1) translate(-958.5,-124)">
+        <defs>
+            <symbol id="bestagon-554515150101233545004">
+                <path
+                    d="M18.255815511775964 0L35.59884024796313 10.013L35.59884024796313 30.038999999999994L18.255815511775964 40.052L0.9127907755887996 30.03900000000001L0.9127907755887961 10.012999999999998Z"
+                    fill="inherit"></path>
+            </symbol>
+        </defs>
+        <use href="#bestagon-554515150101233545004" x="-9.058222124126132" y="21.08" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.041676842349889s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="-9.058222124126132" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.1913842553151898s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="-27.314037635902096" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.2726528255358267s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="-27.314037635902096" y="179.17999999999998" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.637959930907933s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="-9.058222124126132" y="210.79999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.11966021691868683s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="9.197593387649832" y="52.699999999999996" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.2328539888140158s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="9.197593387649832" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.6183284871409446s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="27.453408899425796" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.9779964090069249s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="9.197593387649832" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.9999218761211697s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="63.965039922977724" y="21.08" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.1228539540351123s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="45.70922441120176" y="52.699999999999996" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.03639492291924173s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="45.70922441120176" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.26135162251830535s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="63.965039922977724" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.605014339220311s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="100.47667094652965" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.9840362731303128s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="82.22085543475369" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.04598398664569s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="100.47667094652965" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.9841697916981076s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="82.22085543475369" y="179.17999999999998" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.7157760057707423s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="118.73248645830562" y="52.699999999999996" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.2203483949439953s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="136.98830197008158" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.5773558408595842s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="118.73248645830562" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.9976324708787568s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="136.98830197008158" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.010379779659536643s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="118.73248645830562" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.826994144371174s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="173.49993299363354" y="21.08" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.7521714101108854s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="155.24411748185753" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.0396311328055439s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="173.49993299363354" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-2.026987957770385s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="210.01156401718544" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.2016888576510972s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="191.75574850540949" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.129963992283003s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="191.75574850540949" y="179.17999999999998" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.8862758835627238s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="228.26737952896138" y="52.699999999999996" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.12093465123108742s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="246.5231950407374" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.661458276899693s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="228.26737952896138" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.1916220078785473s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="246.5231950407374" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.896387927648255s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="228.26737952896138" y="179.17999999999998" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.3899533699511795s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="283.0348260642893" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.43693620660003546s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="264.77901055251334" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.3134177507828904s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="301.29064157606524" y="52.699999999999996" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.29979090252418755s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="319.5464570878412" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.14543846478569006s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="301.29064157606524" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.6254747582555598s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="319.5464570878412" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.3569568708551807s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="301.29064157606524" y="179.17999999999998" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.4549764376011608s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="356.05808811139315" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.68504409795727s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="337.8022725996172" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.6297485910630441s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="356.05808811139315" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.8095610141676057s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="392.5697191349451" y="21.08" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.5418090075663253s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="374.31390362316915" y="52.699999999999996" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.1234771201949027s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="392.5697191349451" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.2548748262951892s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="374.31390362316915" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.09456134716864609s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="392.5697191349451" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.0515275970034101s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="374.31390362316915" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.6262915680208174s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="429.081350158497" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.31891557292995637s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="410.82553464672105" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.2394493290859767s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="429.081350158497" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.8909422751225053s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="410.82553464672105" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.606406372641758s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="465.5929811820489" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.7720463376566833s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="447.33716567027295" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.6516057856405192s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="447.33716567027295" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.8536191169170481s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="502.1046122056009" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.6942515528521768s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="483.8487966938249" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.8968455218135254s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="502.1046122056009" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.0022867693267166s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="520.3604277173769" y="52.699999999999996" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.1399574070689376s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="538.6162432291528" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.5025889679596176s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="520.3604277173769" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.8677523215270714s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="538.6162432291528" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.9476928226422745s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="520.3604277173769" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.653931956079988s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="538.6162432291528" y="210.79999999999998" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.9464459547395134s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="556.8720587409288" y="52.699999999999996" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.9757061758733274s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="556.8720587409288" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.9041104976277441s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="575.1278742527047" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.39002211124442s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="556.8720587409288" y="179.17999999999998" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.003241309908922259s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="611.6395052762566" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.1112184500721654s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="593.3836897644807" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.6552767878576002s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="611.6395052762566" y="210.79999999999998" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.29499150204052s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="648.1511362998085" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.04099674479633765s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="629.8953207880326" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.5112254964554784s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="648.1511362998085" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.9210440504528365s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="629.8953207880326" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.364302095267302s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="684.6627673233605" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.26772486763927866s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="666.4069518115846" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-2.070576123400831s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="684.6627673233605" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.433723309651561s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="666.4069518115846" y="179.17999999999998" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.17348553769495897s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="702.9185828351365" y="52.699999999999996" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.1284919031048413s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="721.1743983469124" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.114752689730027s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="702.9185828351365" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.4834272369248744s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="721.1743983469124" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.7962683665046201s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="702.9185828351365" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.590177860374702s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="757.6860293704643" y="21.08" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.9475259560192653s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="739.4302138586884" y="52.699999999999996" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.4260016402738027s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="757.6860293704643" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.08320727742452866s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="739.4302138586884" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.9380183176756834s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="794.1976603940163" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.10849230697850634s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="775.9418448822404" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.633487177730115s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="794.1976603940163" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.33175217591665246s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="830.7092914175682" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.8382441445365334s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="812.4534759057923" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.5633290049988918s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="830.7092914175682" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.6548741681661885s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="812.4534759057923" y="179.17999999999998" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.26794276380686144s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="848.9651069293442" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.3163575492067965s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="903.732553464672" y="21.08" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.002237364153244436s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="885.4767379528961" y="52.699999999999996" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.5618793353858157s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="903.732553464672" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.3547979863109594s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="885.4767379528961" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.1437038620660663s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="903.732553464672" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.21104344376294268s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="885.4767379528961" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.944361893136495s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="903.732553464672" y="210.79999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.9340381918056532s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="940.2441844882239" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.3784840933344672s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="921.988368976448" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.6083842263539538s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="940.2441844882239" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.16951614479050467s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="921.988368976448" y="179.17999999999998" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.8676829528325007s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="976.755815511776" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.8116544168030282s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="958.5" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.7024207646202151s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="958.5" y="179.17999999999998" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.0829342048395636s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="995.0116310235519" y="52.699999999999996" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.3258333335341534s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1013.2674465353278" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.1153079991397112s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="995.0116310235519" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.024636095156248s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1013.2674465353278" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.09946247371092434s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1031.5232620471038" y="52.699999999999996" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.8380203861301235s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1049.7790775588799" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.6979086539444618s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1031.5232620471038" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.5212439687183623s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1049.7790775588799" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.5224068437328442s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1031.5232620471038" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.4676863324023977s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1068.0348930706557" y="52.699999999999996" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.1582830997038152s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1068.0348930706557" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.8437420477802372s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1086.2907085824318" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.6911116596083542s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1068.0348930706557" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.7179890140636551s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1122.8023396059837" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.3366312416519333s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1104.5465240942076" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.6727502671364052s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1122.8023396059837" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.6308665849236064s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1141.0581551177595" y="52.699999999999996" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.6558285702136775s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1159.3139706295356" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.9354924107335454s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1141.0581551177595" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.4988654038042086s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1159.3139706295356" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.521106997581052s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1141.0581551177595" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.5692486464771421s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1177.5697861413114" y="52.699999999999996" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.6434063658793592s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1195.8256016530875" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.3574615342356653s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1177.5697861413114" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.9747943978809108s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1195.8256016530875" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.5293032872564924s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1177.5697861413114" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.1103710334695056s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1214.0814171648633" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.3812769882035965s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1232.3372326766394" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.8867930561612434s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1214.0814171648633" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.08235887221489147s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1250.5930481884152" y="52.699999999999996" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.443230398102893s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1268.8488637001913" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.1488725592244007s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1250.5930481884152" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.7482665541851479s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1268.8488637001913" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.12409602952422834s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1287.104679211967" y="52.699999999999996" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.8653637026148028s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1305.3604947237432" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.6064310893604147s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1287.104679211967" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.2703297538557636s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1305.3604947237432" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.3228091342988146s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1341.8721257472953" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.5494301597209152s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1323.6163102355192" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.18214699196998868s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1378.3837567708472" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.792994582213215s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1360.1279412590711" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.4132667278198316s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1378.3837567708472" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-2.0756826580637657s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1414.895387794399" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-2.016616529312779s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1396.639572282623" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.074695300518479s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1414.895387794399" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-2.0060324927080395s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1451.407018817951" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.673252728581608s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1433.151203306175" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.4727481352473013s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1451.407018817951" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-2.0054164676232045s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1469.6628343297268" y="52.699999999999996" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.11263427876977611s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1487.9186498415029" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.5358926583235009s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1469.6628343297268" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.35588931639950977s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1487.9186498415029" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.8568972477769037s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1469.6628343297268" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.21897081877287244s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1506.1744653532787" y="52.699999999999996" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.0049047365860615s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1524.4302808650548" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.9865663209882389s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1506.1744653532787" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.2720181583118805s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1560.9419118886067" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.9720010661882805s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1542.6860963768306" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.3993433057961857s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1560.9419118886067" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.23008864363753218s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1597.4535429121588" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.9706316070897442s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1579.1977274003827" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.7178345768551905s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1597.4535429121588" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.0322866297008833s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1633.9651739357107" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.7135432894689494s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1615.7093584239346" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.43135605793912185s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1652.2209894474865" y="52.699999999999996" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.0870888052749689s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1670.4768049592626" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.22089842711638383s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1652.2209894474865" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.023791560645361934s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1670.4768049592626" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.8923063899870103s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1652.2209894474865" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.4340198036655531s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1688.7326204710384" y="52.699999999999996" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.1029935083948064s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1706.9884359828145" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-2.013750359492353s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1688.7326204710384" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.2526162432762944s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1706.9884359828145" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.921301643672354s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1743.5000670063664" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.8205282257192896s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1725.2442514945903" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.1647028005393782s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1743.5000670063664" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.5485540994214059s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1725.2442514945903" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.9169215076177317s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1780.0116980299183" y="21.08" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.6160061938683828s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1761.7558825181422" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.0237930456679967s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1780.0116980299183" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.5692504040554498s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1798.2675135416941" y="52.699999999999996" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.22673612806402793s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1816.5233290534702" y="84.32" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.8629101071021225s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1798.2675135416941" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.0296802415384585s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1816.5233290534702" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.822852211244224s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1853.034960077022" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.28972877567260547s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1834.779144565246" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
+                begin="-0.23743329089008544s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1853.034960077022" y="147.56" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.174813542378358s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1834.779144565246" y="179.17999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.3670165065915442s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1853.034960077022" y="210.79999999999998" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.6353550212459893s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1871.290775588798" y="52.699999999999996" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.490033260051754s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1871.290775588798" y="115.94" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.8779248681990536s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1889.546591100574" y="147.56" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.5049636362910096s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1907.80240661235" y="52.699999999999996" fill="#f7ce68">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.5633517432740033s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1926.0582221241261" y="84.32" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.8390841025375393s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+        <use href="#bestagon-554515150101233545004" x="1907.80240661235" y="115.94" fill="#ea7635">
+            <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.8446253188905468s"
+                values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
+        </use>
+    </g>
 </svg>

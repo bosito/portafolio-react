@@ -25,7 +25,7 @@ export default function Precentation() {
 
                     <div className="titlePrecentacion" ref={glassRef} >
                         <p className="t_precent" >Hi Welcome to my World</p>
-                        <p className="t_precent" >I am <samp className="t_samp">Js Developer</samp> </p>
+                        <p className="t_precent" >I am  </p> <samp className="t_samp">{"Web Developer"}</samp>
                     </div>
 
                 </div>

@@ -1,7 +1,5 @@
 import React, { Fragment, useRef, useEffect, useState } from 'react';
 import * as Scroll from 'react-scroll';
-import Particles from "react-tsparticles";
-import conf_particles from '../config/conf_prticles.json';
 import Precentation from '../components/home/sections/Precentation.jsx';
 import Projects from '../components/home/sections/Proyects.jsx';
 import Skills from '../components/home/sections/Skills.jsx';
@@ -21,47 +19,23 @@ import "swiper/components/autoplay/package.json";
 import fondoPrecentacion from '../styles/images/fondoPrecentacion.jpg';
 import herard_animate from '../svg/herard_animate.svg';
 
+import Adorno from '../components/home/Adorno.jsx';
+import adorno_svg from '../svg/adorno2.svg';
+
 export default function Home() {
     return (
         <Fragment>
-            <Particles
-                height="10%"
-                width='100%'
-                options={{
-                    ...conf_particles,
-                    autoPlay: true,
-                    zLayers: 5,
-                    background: {
-                        image: `url(${fondoPrecentacion})`,
-                        //image: "url('../styles/images/fondoPrecentacion.jpg')",
-                        //image: "url('https://particles.js.org/images/background3.jpg')",
-                        position: "50% 50%",
-                        repeat: "no-repeat",
-                        size: "cover"
-                    },
-                    backgroundMask: {
-                        composite: "destination-out",
-                        cover: {
-                            color: {
-                                value: {
-                                    r: 19,
-                                    g: 20,
-                                    b: 20
-                                }
-                            },
-                            opacity: 1
-                        },
-                        enable: true
-                    },
-                }}
-            />
             <Precentation />
-            <div className="separator" >
+             <div className="separator" >
                 <p className='slogan'>Made with <samp className='slog_samp' >love</samp>, not with a keyboard</p>
                 <img src={herard_animate} alt="" style={{ width: 60, height: 30 }} />
             </div>
             {/* <AboutMe /> */}
             <Projects />
+             {/* <div className="separator" >
+                <p className='slogan'>Made with <samp className='slog_samp' >love</samp>, not with a keyboard</p>
+                <img src={herard_animate} alt="" style={{ width: 60, height: 30 }} />
+            </div> */}
             <Skills />
             <Contact />
             <FolatTopScroll />
@@ -71,7 +45,7 @@ export default function Home() {
 
 function AboutMe() {
     return (
-        <section className="aboutme" id='2' >
+        <section className="aboutme" id='2' style={{ backgroundColor: 'red', zIndex: 0, marginTop: -50  }} >
             {/* <div className="aboutmeCont" >
                 <div className="contInfoAbout">
                     <h2 className="infoAbout  t_samp" style={{ fontSize: 30 }} >
