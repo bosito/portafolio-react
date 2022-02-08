@@ -74,7 +74,12 @@
     width: 25px;
     height: 25px;
     margin-right: 10px;
-    cursor: pointer;
+    transition: 0.5s;
+}
+
+.icon_net:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
 }
 
 .cont_buton_netkork {

@@ -68,3 +68,23 @@
     50% { border-color: transparent }
 }
 
+.btn_cv{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.5px;
+    color: white;
+    background: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+    margin-top: 10px;
+    width: 170px;
+    height: 39px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 1s;
+}
+    
+.btn_cv:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}

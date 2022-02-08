@@ -19,8 +19,9 @@ export default function NavigationHeader() {
 
         const remove_select_nav = (e) => {
             const actual_scroll_value = e.currentTarget.scrollY;
-
-            const val_limit_scroll = [0, 587, 1174, 1761];
+            const windowHeigth = e.currentTarget.innerHeight;
+            
+            const val_limit_scroll = [0, windowHeigth, (windowHeigth*2), (windowHeigth*3)];
 
             if (actual_scroll_value >= val_limit_scroll[0]) {
                 setIndexNavigation(0);
@@ -72,7 +73,6 @@ export default function NavigationHeader() {
                                     smooth={true}
                                     offset={0}
                                     duration={400}
-                                    //onSetActive={this.handleSetActive}
                                     onClick={() => select_navigation(index)}
                                     key={index}
                                 >
@@ -98,7 +98,6 @@ export default function NavigationHeader() {
                                     smooth={true}
                                     offset={0}
                                     duration={400}
-                                    //onSetActive={this.handleSetActive}
                                     onClick={() => select_navigation(index)}
                                     key={index}
                                 >

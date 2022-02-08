@@ -16,7 +16,6 @@ import '../styles/float_top_scroll.css';
 import 'swiper/swiper.min.css';
 import "swiper/components/autoplay/package.json";
 
-import fondoPrecentacion from '../styles/images/fondoPrecentacion.jpg';
 import herard_animate from '../svg/herard_animate.svg';
 
 import Adorno from '../components/home/Adorno.jsx';
@@ -26,16 +25,13 @@ export default function Home() {
     return (
         <Fragment>
             <Precentation />
-             <div className="separator" >
+            <Adorno backgroundImage={adorno_svg} styleOption={{ position: 'absolute', bottom: 0, height: 250, zIndex: 1, backgroundColor: 'transparent' }} />
+            <div className="separator" >
                 <p className='slogan'>Made with <samp className='slog_samp' >love</samp>, not with a keyboard</p>
                 <img src={herard_animate} alt="" style={{ width: 60, height: 30 }} />
             </div>
             {/* <AboutMe /> */}
             <Projects />
-             {/* <div className="separator" >
-                <p className='slogan'>Made with <samp className='slog_samp' >love</samp>, not with a keyboard</p>
-                <img src={herard_animate} alt="" style={{ width: 60, height: 30 }} />
-            </div> */}
             <Skills />
             <Contact />
             <FolatTopScroll />
@@ -45,7 +41,7 @@ export default function Home() {
 
 function AboutMe() {
     return (
-        <section className="aboutme" id='2' style={{ backgroundColor: 'red', zIndex: 0, marginTop: -50  }} >
+        <section className="aboutme" id='2' style={{ backgroundColor: 'red', zIndex: 0, marginTop: -50 }} >
             {/* <div className="aboutmeCont" >
                 <div className="contInfoAbout">
                     <h2 className="infoAbout  t_samp" style={{ fontSize: 30 }} >

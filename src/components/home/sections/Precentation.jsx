@@ -11,7 +11,7 @@ export default function Precentation() {
     useEffect(() => {
 
         if (glassRef.current) {
-            ScrollReveal().reveal(glassRef.current, { reset: true, delay: 500 })
+            ScrollReveal().reveal(glassRef.current, { reset: true, scale: 0, duration: 1000, delay: 500 });
         };
 
     }, []);
@@ -26,6 +26,15 @@ export default function Precentation() {
                     <div className="titlePrecentacion" ref={glassRef} >
                         <p className="t_precent" >Hi Welcome to my World</p>
                         <p className="t_precent" >I am  </p> <samp className="t_samp">{"Web Developer"}</samp>
+
+                        <a href='https://drive.google.com/file/d/1QML5__0Klg-aho4pJXB-R46Tw41siRKB/view' target="_blank" >
+                            <div className='btn_cv' >
+                                <p>- DOWLOAD CV -</p>
+                            </div>
+                        </a>
+
+
+
                     </div>
 
                 </div>
