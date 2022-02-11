@@ -1,6 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Adorno from '../Adorno';
-import adorno_svg from '../../../svg/adorno2.svg';
 import ScrollReveal from 'scrollreveal';
 import { Element } from 'react-scroll';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -23,19 +21,23 @@ SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
 const data = [{
     uri_image: web_storage_system,
     link_page: 'https://crud-local-storage.vercel.app/',
-    is_movil: false
+    title: 'Crud',
+    text: `web storage system`
 }, {
     uri_image: todo_list,
     link_page: 'https://crud-api-academlo.vercel.app/',
-    is_movil: true
+    title: 'Crud api',
+    text: `todolist`
 }, {
     uri_image: rick_and_morty,
     link_page: 'https://rick-and-morty-app-opal.vercel.app/',
-    is_movil: false
+    title: 'Rick and Morty api',
+    text: `data and curiosities`
 }, {
     uri_image: trivia_game,
     link_page: 'https://my-trivia-game-pink.vercel.app/',
-    is_movil: false
+    title: 'Game',
+    text: `trivia`
 }];
 
 export default function Projects() {
@@ -69,24 +71,15 @@ export default function Projects() {
                     {
                         listCadSkills.map((cards, index) => {
                             return (
-                                <SwiperSlide className='swipe_slide_conten' >
-                                    <div className='conten_card' >
-                                        <a href={cards.link_page} style={{ width: '90%', height: '90%' }} target="_blank" >
-                                            <img src={cards.uri_image}  className='cont_img' alt={`card_number ${index}`} />
-                                        </a>
-                                        <div className='cont_efct_crd' >
-                                            <div className='eft_crd lef'></div>
-                                            {/* <div className='eft_crd rig' ></div> */}
-                                        </div>
-                                    </div>
+                                <SwiperSlide className='swipe_slide_conten'>
+                                    <CardItem cards={cards} index={index} />
                                 </SwiperSlide>
+
                             )
                         })
                     }
                 </Swiper>
             </div>
-
-            {/* <Adorno backgroundImage={adorno_svg} styleOption={{  position: 'absolute',  bottom: -120 , height: 250, zIndex: 1, backgroundColor: 'transparent' }} /> */}
         </Element>
     )
 };
@@ -97,7 +90,7 @@ function TitleComponent() {
     useEffect(() => {
 
         if (titleProyectRef.current) {
-            ScrollReveal().reveal(titleProyectRef.current, { reset: true, delay: 500 });
+            ScrollReveal().reveal(titleProyectRef.current, { reset: true, distance: '70px', origin: 'bottom', duration: 1000, delay: 500, easing: 'cubic-bezier(0.5, 0, 0, 1)' });
         };
 
     }, []);
@@ -111,6 +104,25 @@ function TitleComponent() {
             <p className="txt_proyect">
                 Projects
             </p>
+        </div>
+    );
+};
+
+function CardItem(props) {
+    const { cards, index } = props;
+    return (
+        <div className='conten_card'>
+            <div style={{ width: '90%', height: '90%' }}  >
+                <img src={cards.uri_image} className='cont_img' alt={`card_number ${index}`} />
+            </div>
+            <a className='cont_efct_crd' href={cards.link_page} target="_blank" rel="noreferrer noopener" >
+                <div className='lef'>
+                    <p className='title_card' >{cards.title}</p>
+                </div>
+                <div className='rig' >
+                    <p className='text_card' >{cards.text}</p>
+                </div>
+            </a>
         </div>
     );
 };

@@ -53,16 +53,16 @@ export default function Contact() {
                                     />
 
                                     <div className="cont_buton_netkork" >
-                                        <a href="https://www.facebook.com/jlRocerTraseur" target="_blank">
+                                        <a href="https://www.facebook.com/jlRocerTraseur" target="_blank" rel="noreferrer noopener">
                                             <img src={facebook} alt="facebook" className='icon_net' />
                                         </a>
-                                        <a href="https://www.instagram.com/bosito12/?hl=es-la" target="_blank">
+                                        <a href="https://www.instagram.com/bosito12/?hl=es-la" target="_blank" rel="noreferrer noopener">
                                             <img src={instagram} alt="instagram" className='icon_net' />
                                         </a>
-                                        <a href="https://github.com/bosito" target="_blank">
+                                        <a href="https://github.com/bosito" target="_blank" rel="noreferrer noopener">
                                             <img src={gtithub} alt="gtithub" className='icon_net' />
                                         </a>
-                                        <a href="https://www.linkedin.com/in/jose-luis-jimenez-91419a1a6/" target="_blank">
+                                        <a href="https://www.linkedin.com/in/jose-luis-jimenez-91419a1a6/" target="_blank" rel="noreferrer noopener">
                                             <img src={linkeding} alt="linkeding" className='icon_net' />
                                         </a>
                                     </div>

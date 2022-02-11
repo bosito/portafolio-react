@@ -17,18 +17,13 @@ import 'swiper/swiper.min.css';
 import "swiper/components/autoplay/package.json";
 
 import herard_animate from '../svg/herard_animate.svg';
-
-import Adorno from '../components/home/Adorno.jsx';
-import adorno_svg from '../svg/adorno2.svg';
-
 export default function Home() {
     return (
         <Fragment>
             <Precentation />
-            <Adorno backgroundImage={adorno_svg} styleOption={{ position: 'absolute', bottom: 0, height: 250, zIndex: 1, backgroundColor: 'transparent' }} />
             <div className="separator" >
                 <p className='slogan'>Made with <samp className='slog_samp' >love</samp>, not with a keyboard</p>
-                <img src={herard_animate} alt="" style={{ width: 60, height: 30 }} />
+                <img src={herard_animate} alt="slogan" style={{ width: 60, height: 30 }} />
             </div>
             {/* <AboutMe /> */}
             <Projects />

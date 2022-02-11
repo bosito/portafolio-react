@@ -9,11 +9,11 @@
                     fill="inherit"></path>
             </symbol>
         </defs>
-        <use href="#bestagon-554515150101233545004" x="-9.058222124126132" y="21.08" fill="#ea7635">
+        <use href="#bestagon-554515150101233545004" x="-9.058222124126132" y="21.08" fill="#1b1b1b">
             <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.041676842349889s"
                 values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
         </use>
-        <use href="#bestagon-554515150101233545004" x="-9.058222124126132" y="84.32" fill="#f7ce68">
+        <use href="#bestagon-554515150101233545004" x="-9.058222124126132" y="84.32" fill="#000000">
             <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.1913842553151898s"
                 values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
         </use>
@@ -465,7 +465,7 @@
             <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.024636095156248s"
                 values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
         </use>
-        <use href="#bestagon-554515150101233545004" x="1013.2674465353278" y="147.56" fill="#f7ce68">
+        <use href="#bestagon-554515150101233545004" x="1013.2674465353278" y="147.56" fill="#000000">
             <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s"
                 begin="-0.09946247371092434s" values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
         </use>
@@ -473,7 +473,7 @@
             <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.8380203861301235s"
                 values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
         </use>
-        <use href="#bestagon-554515150101233545004" x="1049.7790775588799" y="84.32" fill="#f7ce68">
+        <use href="#bestagon-554515150101233545004" x="1049.7790775588799" y="84.32" fill="#000000">
             <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.6979086539444618s"
                 values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
         </use>
@@ -669,7 +669,7 @@
             <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-1.0049047365860615s"
                 values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
         </use>
-        <use href="#bestagon-554515150101233545004" x="1524.4302808650548" y="84.32" fill="#f7ce68">
+        <use href="#bestagon-554515150101233545004" x="1524.4302808650548" y="84.32" fill="#000000">
             <animate attributeName="fill" repeatCount="indefinite" dur="2.083333333333333s" begin="-0.9865663209882389s"
                 values="#ea7635;#f7ce68" keyTimes="0;1"></animate>
         </use>

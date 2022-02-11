@@ -45,7 +45,7 @@ function TilteComponent({ title }) {
     return (
         <div className="contenTitleSkills">
             <div className="contIconskills" >
-                <img src={iconoSkills} style={{ width: '100%', height: '100%', }} alt="img_title" />
+                <img src={iconoSkills} style={{ width: '100%', height: '100%', }} alt="img_title_skill" />
             </div>
             <p className="txtSkils">
                 {title}
@@ -76,7 +76,7 @@ function SwiperLocalComponent(props) {
                 listCadSkills.map((cards, index) => {
                     return (
                         <SwiperSlide className='swipe_slide_conten_skill' key={index} >
-                            <CardSkillsComponent requiereImage={cards} />
+                            <CardSkillsComponent requiereImage={cards} alt={index.toString()} />
                         </SwiperSlide>
                     )
                 })
@@ -85,13 +85,14 @@ function SwiperLocalComponent(props) {
     );
 };
 
-function CardSkillsComponent({ requiereImage }) {
+function CardSkillsComponent({ requiereImage, alt }) {
     return (
         <div className='conten_card_skill'>
 
             <img
                 src={requiereImage}
                 style={{ width: 120, height: 120, borderRadius: 100, resizeMode : 'contain'  }}
+                alt={alt}
             />
 
         </div>
