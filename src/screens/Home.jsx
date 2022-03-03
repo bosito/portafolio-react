@@ -33,24 +33,6 @@ export default function Home() {
         </Fragment>
     );
 };
-
-function AboutMe() {
-    return (
-        <section className="aboutme" id='2' style={{ backgroundColor: 'red', zIndex: 0, marginTop: -50 }} >
-            {/* <div className="aboutmeCont" >
-                <div className="contInfoAbout">
-                    <h2 className="infoAbout  t_samp" style={{ fontSize: 30 }} >
-                        JS DEVELOPER
-                    </h2>
-                    <p className="infoAbout">
-
-                    </p>
-                </div>
-            </div> */}
-        </section>
-    );
-};
-
 function FolatTopScroll() {
     const buttonScrollRef = useRef();
     const [typeAnimation, setTypeAnimation] = useState(false);
