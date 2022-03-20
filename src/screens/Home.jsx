@@ -33,6 +33,7 @@ export default function Home() {
         </Fragment>
     );
 };
+
 function FolatTopScroll() {
     const buttonScrollRef = useRef();
     const [typeAnimation, setTypeAnimation] = useState(false);

@@ -1,100 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import { Element } from 'react-scroll';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { EffectCoverflow, Pagination, Autoplay } from 'swiper/core';
-
-//list_images
-import { images_list_skils } from '../../../config/inages_list_skills';
 
 //styles
 import '../../../styles/skills.css';
-import iconoSkills from "../../../styles/images/list.png";
 
-//swip stiles
-import 'swiper/swiper.min.css';
-import "swiper/components/autoplay/package.json";
-
-SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
 
 export default function Skills() {
-    const [listCadSkills, setListCadSkills] = useState([]);
-
-    useEffect(() => {
-
-        setListCadSkills(images_list_skils);
-
-    }, []);
+    const [listSkills, setListSkills] = useState([]);
 
     return (
         <Element className="skills" id='3'>
-            <div className="contSwiper_skill">
+            <div className='card_data_skill'>
 
-                <TilteComponent title="Skills" />
-
-                <SwiperLocalComponent
-                    listCadSkills={listCadSkills}
-                    reverseDirection={false}
-                />
-
+                <div className='card_skill' >
+                    <p>JavaScript</p>
+                </div>
+                
             </div>
         </Element>
-    );
-};
-
-function TilteComponent({ title }) {
-    return (
-        <div className="contenTitleSkills">
-            <div className="contIconskills" >
-                <img src={iconoSkills} style={{ width: '100%', height: '100%', }} alt="img_title_skill" />
-            </div>
-            <p className="txtSkils">
-                {title}
-            </p>
-        </div>
-    );
-};
-
-function SwiperLocalComponent(props) {
-    const { listCadSkills, reverseDirection } = props;
-    return (
-        <Swiper
-            className='swiper_principal_skill'
-            //effect='coverflow'
-            slidesPerGroup={1}
-            spaceBetween={3}
-            slidesPerView={8}
-            loop={true}
-            loopFillGroupWithBlank={true}
-            grabCursor={true}
-            centeredSlides={true}
-            translate='yes'
-            //onSlideChange={() => console.log('slide change')}
-            //onSwiper={(swiper) => console.log(swiper)}
-            autoplay={{ delay: 2000, reverseDirection: reverseDirection }}
-        >
-            {
-                listCadSkills.map((cards, index) => {
-                    return (
-                        <SwiperSlide className='swipe_slide_conten_skill' key={index} >
-                            <CardSkillsComponent requiereImage={cards} alt={index.toString()} />
-                        </SwiperSlide>
-                    )
-                })
-            }
-        </Swiper>
-    );
-};
-
-function CardSkillsComponent({ requiereImage, alt }) {
-    return (
-        <div className='conten_card_skill'>
-
-            <img
-                src={requiereImage}
-                style={{ width: 120, height: 120, borderRadius: 100, resizeMode : 'contain'  }}
-                alt={alt}
-            />
-
-        </div>
     );
 };
