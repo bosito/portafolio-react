@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Element } from 'react-scroll';
+import ScrollHitori from '../../skils/ScrollHitori';
 import list_name_skils from '../../../config/list_name_skils'
 
 //styles
@@ -26,7 +27,7 @@ export default function Skills() {
                         skills
                     </button>
                     <button className='header_button' onClick={() => setSelectSection(false)}>
-                        about me
+                        experience
                     </button>
                 </div>
                 {
@@ -43,7 +44,7 @@ export default function Skills() {
                             }
                         </div>
                         :
-                        null
+                        <ScrollHitori  />
                 }
 
             </div>

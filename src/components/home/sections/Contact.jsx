@@ -73,21 +73,21 @@ export default function Contact() {
                                     <InputComponent
                                         name="nombre"
                                         onChange={chageInputsValue}
-                                        placeholder="Nombre"
+                                        placeholder="Name"
                                         value={dataImputs.name}
                                     />
 
                                     <InputComponent
                                         name="email"
                                         onChange={chageInputsValue}
-                                        placeholder="Correo Electronico"
+                                        placeholder="Email"
                                         value={dataImputs.email}
                                     />
 
                                     <InputComponent
                                         name="asunto"
                                         onChange={chageInputsValue}
-                                        placeholder="Asunto"
+                                        placeholder="Business"
                                         value={dataImputs.asunto}
                                     />
 
@@ -96,7 +96,7 @@ export default function Contact() {
                                             type="text"
                                             name="menssage"
                                             value={dataImputs.menssage}
-                                            placeholder='Mensaje'
+                                            placeholder='Menssage'
                                             onChange={chageInputsValue}
                                             className='input'
                                             multiple={true}
@@ -115,7 +115,7 @@ export default function Contact() {
                             </div>
                         ) : (
                             <div className="view_cont_type" style={{ justifyContent: 'center', alignItems: 'center' }} >
-                                
+
                                 <Lottie
                                     height={400}
                                     width={400}
@@ -145,10 +145,10 @@ function HeaderContenButons({ proyectOnPress, contactOnPress }) {
         <div className="conten_tabs" >
             <div style={{ flex: 1, display: 'flex' }} >
                 <button className='buton_tabs' onClick={proyectOnPress} >
-                    Proyecto
+                    project
                 </button>
                 <button className='buton_tabs' onClick={contactOnPress} >
-                    Contacto
+                    Contact
                 </button>
             </div>
             <div style={{ width: '100%', height: 0.5, backgroundColor: 'gray' }} />

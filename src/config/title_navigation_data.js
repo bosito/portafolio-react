@@ -3,10 +3,6 @@ export const header_data = [
         title: 'Home',
         href_menu: '1'
     },
-    // {
-    //     title: 'About',
-    //     href_menu: '#2'
-    // },
     {
         title: 'Works',
         href_menu: '4'
