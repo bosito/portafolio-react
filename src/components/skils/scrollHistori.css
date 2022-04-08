@@ -1,11 +1,35 @@
 .conten_scroll{
     display: flex;
     flex: 1;
-    /* background-color: red; */
+    justify-content: center;
 }
 
 .logo_empresa{
     width: 100px;
     height: 100px;
     border-radius: 50px;
+}
+
+.card_history{
+    width: 50%;
+    height: 70%;
+    background-color: #3f3e3e;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.text_hty{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.sec_text{
+    font-size: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
 }

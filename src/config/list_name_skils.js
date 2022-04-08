@@ -30,7 +30,7 @@ const skils = [
         title: 'Sass',
     },
     {
-        title: 'Postgres',
+        title: 'PostgreSql',
     },
     {
         title: 'Phyton',
