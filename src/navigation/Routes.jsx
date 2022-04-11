@@ -1,14 +1,17 @@
 import React from 'react';
-import Home from '../screens/Home';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+
+import Home from '../screens/Home';
+import Project from '../screens/Proyect';
+import Error404 from '../screens/Error404';
 
 export default function Routes() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route exact path="/">
-                    <Home />
-                </Route>
+                <Route exact path="/" component={Home} />
+                <Route path='/projects_datos' component={Project} />
+                <Route path='*' component={Error404} />
             </Switch>
         </BrowserRouter>
     );

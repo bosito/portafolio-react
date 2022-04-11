@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Element } from 'react-scroll';
-import ScrollHitori from '../../skils/ScrollHitori';
+import ScrollHistori from '../../skils/ScrollHistori';
 import list_name_skils from '../../../config/list_name_skils'
 
 //styles
@@ -44,7 +44,7 @@ export default function Skills() {
                             }
                         </div>
                         :
-                        <ScrollHitori  />
+                        <ScrollHistori  />
                 }
 
             </div>
