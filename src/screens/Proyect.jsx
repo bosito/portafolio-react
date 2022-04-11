@@ -44,11 +44,11 @@ export default function Project() {
                         <p className="txt_proy" >{params?.title}</p>
                         <p className="txt_proy" >{params?.inicio_colaboracion} - {params?.final_colaboracion}</p>
                     </div>
-                    {/* <div className="cont_description_proy" >
-                        <p>{params?.cargo}</p>
-                        <p>{params?.description}</p>
-                        <p>{params?.description_cargo}</p>
-                    </div> */}
+                    <div className="cont_description_proy" >
+                        <p className="txt_proy tlt_proy" >{params?.cargo}</p>
+                        <p className="txt_proy des_proy " >{params?.description_cargo}</p>
+                        <p className="txt_proy des_proy " >{params?.description}</p>
+                    </div>
                 </div>
             </div>
 
