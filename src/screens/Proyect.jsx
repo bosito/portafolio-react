@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
+import imageFondo from '../styles/images/fondo2.png'
+
 import '../styles/scrollHistori_proyect.css';
 
 export default function Project() {
     const location = useLocation();
     const [params, setParams] = useState({});
-    //pensar en eliminar este estado
-    const [imagenesProyect, setImagenesProyect] = useState('');
 
     useEffect(() => {
 
@@ -15,24 +15,11 @@ export default function Project() {
             setParams(location.state);
         };
 
-        if (location.state) {
-            if (location.state.imagenes_proyect) {
-                setImagenesProyect(location.state.imagenes_proyect[0])
-            }
-
-        }
-
     }, [location.state]);
-
-    useEffect(() => {
-
-        console.log(params);
-
-    }, [params]);
 
     return (
         <div className="cont_proyect" >
-            <img src={imagenesProyect} alt={'test1'} className='image_back' />
+            <img src={imageFondo} alt={'test1'} className='image_back' />
             <div className="cont_deg" >
                 <div className="cont_data_proy" >
                     <div className="cont_image_proy" >
@@ -41,13 +28,18 @@ export default function Project() {
                             alt={params?.data_image?.alt}
                             className='img_proy'
                         />
-                        <p className="txt_proy" >{params?.title}</p>
+                        <p className="txt_proy" style={{ marginTop: 10 }}>{params?.title}</p>
                         <p className="txt_proy" >{params?.inicio_colaboracion} - {params?.final_colaboracion}</p>
                     </div>
                     <div className="cont_description_proy" >
                         <p className="txt_proy tlt_proy" >{params?.cargo}</p>
                         <p className="txt_proy des_proy " >{params?.description_cargo}</p>
                         <p className="txt_proy des_proy " >{params?.description}</p>
+
+                        <a href={params?.lisks_proyectos} target="_blank" rel="noreferrer noopener" className="buton_proy">
+                           <p>saber mas</p> 
+                        </a>
+
                     </div>
                 </div>
             </div>

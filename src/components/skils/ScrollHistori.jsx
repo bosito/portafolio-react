@@ -13,14 +13,14 @@ const dataView = [{
     title: 'AppMosphera',
     description: 'Aplicación de seguridad y control de acceso más práctica e intuitiva del mercado.',
     data_image: {
-        src: 'https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-6/242346804_242645137870969_8784603992420543858_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeF3nW2zPE2KEUoiH-m-Bbu3wOSNZnu5MfrA5I1me7kx-s9SO0jGY7q7izRnCskyxmc6xHw9V0RHtHe1kt6FQNOI&_nc_ohc=zsmhfm2w1ZUAX_iD4-j&_nc_ht=scontent-qro1-1.xx&oh=00_AT9ke8UTMU4fO84jtGzBPD9IVxNSPfRzciWhIohSFZONVw&oe=6251B958',
+        src: 'https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-6/278332868_4838562856271666_2369191661829838127_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeHOKD4Gd-JIJr8w223qZZ-pTrreRpHO0UROut5Gkc7RROwu_Ncqb9YO82kr6rZ3GPcTN9aobpuL33G6FFWbiX5b&_nc_ohc=8ryQlDnXIvcAX_ANwbj&_nc_ht=scontent-qro1-1.xx&oh=00_AT9bjsY3R7dRvtT4UROuaVvwkO-2712i_36UkT_hIIMwuA&oe=6258DA23',
         alt: 'AppMosphera'
     },
     cargo: 'Web Developer - Mobile App Developer',
-    description_cargo: 'Mi funcion es la de dar mantenimiento, correccion y desarrollo de nuevos modulos para 3 paginas web y 3 aplicaciones moviles.',
+    description_cargo: 'My role is to maintain, correct and develop new modules for 3 web pages and 3 mobile applications.',
     inicio_colaboracion: 'Febrero 2021',
     final_colaboracion: 'Actualmente',
-    imagenes_proyect: ['https://scontent-qro1-1.cdninstagram.com/v/t51.2885-15/236285504_968248367359507_5773137331169422350_n.jpg?stp=dst-jpg_e35&_nc_ht=scontent-qro1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=gYEt1h5TM_oAX9Sa0-m&edm=ALQROFkBAAAA&ccb=7-4&ig_cache_key=MjYzODk1NTk3ODk5NzA1MzE4OA%3D%3D.2-ccb7-4&oh=00_AT87ZCE2e3MDIM7io9-_lr-5ABAha9vUbZyqNs5Rd3zDSw&oe=625AB97D&_nc_sid=30a2ef', '', ''],
+    imagenes_proyect: [],
     lisks_proyectos: ['https://play.google.com/store/apps/details?id=com.mobile.appmosphera_app&hl=es_MX']
 }];
 
