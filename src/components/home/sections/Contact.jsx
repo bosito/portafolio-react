@@ -1,6 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, forwardRef } from 'react';
 import * as Scroll from 'react-scroll';
 import Lottie from 'react-lottie';
+import dayjs from 'dayjs';
+import { ToastContainer, toast } from 'react-toastify'
+import useAddCollectionFireStore from '../../../hooks/useAddCollectionFireStore';
 
 import uderConstrucion from '../../../styles/lottie/under-construction.json';
 import Adorno from '../../../components/home/Adorno.jsx';
@@ -17,10 +20,27 @@ import enviarIcon from '../../../svg/enviar.svg'
 import '../../../styles/contact_style.css';
 
 export default function Contact() {
+    const { addCollection } = useAddCollectionFireStore();
     const [proyectOrContact, setProyectOrContact] = useState(true);
-    const [dataImputs, setDataImputs] = useState({});
+    const [dataImputs, setDataImputs] = useState({
+        name: '',
+        email: '',
+        asunto: '',
+        menssage: ''
+    });
 
-    const chageInputsValue = (e) => setDataImputs({ [e.target.name]: e.target.value });
+    const chageInputsValue = (e) => setDataImputs({ ...dataImputs, [e.target.name]: e.target.value });
+
+    const createNewContact = (e) => {
+        e.preventDefault();
+        if (Object.keys(dataImputs).length > 0) {
+            if (dataImputs.name && dataImputs.email && dataImputs.asunto && dataImputs.menssage) {
+                const create_add = dayjs().format('DD/MM/YYYY hh:mm a');
+                addCollection({ ...dataImputs, create_add: create_add });
+                setDataImputs({  name: '', email: '', asunto: '', menssage: '' })
+            };
+        };
+    };
 
     return (
         <section>
@@ -68,10 +88,10 @@ export default function Contact() {
                                     </div>
 
                                 </div>
-                                <div className="view_cont_type works" style={{ flexDirection: 'column', alignItems: 'center' }} >
+                                <form className="view_cont_type works" style={{ flexDirection: 'column', alignItems: 'center' }} >
 
                                     <InputComponent
-                                        name="nombre"
+                                        name="name"
                                         onChange={chageInputsValue}
                                         placeholder="Name"
                                         value={dataImputs.name}
@@ -104,14 +124,14 @@ export default function Contact() {
                                     </div>
 
                                     <div className='inpu_cont' style={{ border: 0, justifyContent: 'flex-end' }}>
-                                        <button className='but_envi' >
+                                        <button className='but_envi' onClick={createNewContact} >
                                             <img src={enviarIcon} alt="message_icon" style={{ width: 20, height: 20 }} />
                                             Send
                                         </button>
                                     </div>
 
 
-                                </div>
+                                </form>
                             </div>
                         ) : (
                             <div className="view_cont_type" style={{ justifyContent: 'center', alignItems: 'center' }} >
@@ -165,19 +185,22 @@ function DataForm({ icon, title, extraStiles = {} }) {
     );
 };
 
-function InputComponent({ name, placeholder, value, onChange }) {
+const InputComponent = forwardRef((props, ref) => {
+    const { name, placeholder, value, onChange } = props;
     return (
         <div className='inpu_cont' >
             <input
+                ref={ref}
                 type="text"
                 name={name}
                 value={value}
                 placeholder={placeholder}
                 onChange={onChange}
                 className='input'
+                required={true}
                 maxLength={25}
             />
         </div>
     );
-};
+});
 

@@ -15,6 +15,7 @@ import web_storage_system from '../../../styles/images/web_storage_system.png';
 import todo_list from '../../../styles/images/todo_list.png';
 import rick_and_morty from '../../../styles/images/rick_and_morty.png';
 import trivia_game from '../../../styles/images/trivia_game.png';
+import appMosphera from '../../../styles/images/appmosphera.png';
 
 SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
 
