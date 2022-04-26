@@ -1,8 +1,7 @@
-import React, { useState, useEffect, forwardRef } from 'react';
+import React, { useState, forwardRef } from 'react';
 import * as Scroll from 'react-scroll';
 import Lottie from 'react-lottie';
 import dayjs from 'dayjs';
-import { ToastContainer, toast } from 'react-toastify'
 import useAddCollectionFireStore from '../../../hooks/useAddCollectionFireStore';
 
 import uderConstrucion from '../../../styles/lottie/under-construction.json';
