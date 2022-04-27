@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 //import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { EffectCoverflow, Pagination, Autoplay } from 'swiper/core';
+import appMosphera_logo from '../../styles/images/appMosphera_logo.JPG'
 
 //import './scrollHistori.css';
 import '../../styles/scrollHistori.css';
@@ -13,7 +14,7 @@ const dataView = [{
     title: 'AppMosphera',
     description: 'Aplicación de seguridad y control de acceso más práctica e intuitiva del mercado.',
     data_image: {
-        src: 'https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-6/278332868_4838562856271666_2369191661829838127_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeHOKD4Gd-JIJr8w223qZZ-pTrreRpHO0UROut5Gkc7RROwu_Ncqb9YO82kr6rZ3GPcTN9aobpuL33G6FFWbiX5b&_nc_ohc=8ryQlDnXIvcAX_ANwbj&_nc_ht=scontent-qro1-1.xx&oh=00_AT9bjsY3R7dRvtT4UROuaVvwkO-2712i_36UkT_hIIMwuA&oe=6258DA23',
+        src: appMosphera_logo,
         alt: 'AppMosphera'
     },
     cargo: 'Web Developer - Mobile App Developer',
@@ -41,12 +42,13 @@ export default function ScrollHitori() {
                         return (
                             <Link key={index.toString()} to={{ pathname: 'projects_datos', state: data }} className='card_history' >
                                 <img
+                                    key={index.toString()}
                                     src={data.data_image.src}
                                     alt={data.data_image.alt}
                                     className='logo_empresa'
                                 />
-                                <p className='text_hty' >{data.title}</p>
-                                <p className='text_hty sec_text' >{data.description}</p>
+                                <p key={index.toString()} className='text_hty' >{data.title}</p>
+                                <p key={index.toString()} className='text_hty sec_text' >{data.description}</p>
                             </Link>
                         )
                     })

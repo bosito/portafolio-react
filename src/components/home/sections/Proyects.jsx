@@ -15,7 +15,7 @@ import web_storage_system from '../../../styles/images/web_storage_system.png';
 import todo_list from '../../../styles/images/todo_list.png';
 import rick_and_morty from '../../../styles/images/rick_and_morty.png';
 import trivia_game from '../../../styles/images/trivia_game.png';
-import appMosphera from '../../../styles/images/appmosphera.png';
+//import appMosphera from '../../../styles/images/appmosphera.png';
 
 SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
 
@@ -72,7 +72,7 @@ export default function Projects() {
                     {
                         listCadSkills.map((cards, index) => {
                             return (
-                                <SwiperSlide className='swipe_slide_conten'>
+                                <SwiperSlide key={index.toString()} className='swipe_slide_conten'>
                                     <CardItem cards={cards} index={index} />
                                 </SwiperSlide>
 
@@ -112,7 +112,7 @@ function TitleComponent() {
 function CardItem(props) {
     const { cards, index } = props;
     return (
-        <div className='conten_card'>
+        <div key={index.toString()} className='conten_card'>
             <div style={{ width: '90%', height: '90%' }}  >
                 <img src={cards.uri_image} className='cont_img' alt={`card_number ${index}`} />
             </div>

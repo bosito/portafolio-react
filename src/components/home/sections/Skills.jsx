@@ -34,10 +34,10 @@ export default function Skills() {
                     selectSection ?
                         <div className='list_skils' >
                             {
-                                listSkills.map((skil) => {
+                                listSkills.map((skil, index) => {
                                     return (
-                                        <div className='card_skill' >
-                                            <p>{skil.title}</p>
+                                        <div className='card_skill' key={index.toString()} >
+                                            <p key={index.toString()} >{skil.title}</p>
                                         </div>
                                     )
                                 })
