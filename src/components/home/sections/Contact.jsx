@@ -98,6 +98,7 @@ export default function Contact() {
 
                                     <InputComponent
                                         name="email"
+                                        type='email'
                                         onChange={chageInputsValue}
                                         placeholder="Email"
                                         value={dataImputs.email}
@@ -185,12 +186,12 @@ function DataForm({ icon, title, extraStiles = {} }) {
 };
 
 const InputComponent = forwardRef((props, ref) => {
-    const { name, placeholder, value, onChange } = props;
+    const { name, placeholder, value, onChange, type='text' } = props;
     return (
         <div className='inpu_cont' >
             <input
                 ref={ref}
-                type="text"
+                type={type}
                 name={name}
                 value={value}
                 placeholder={placeholder}
