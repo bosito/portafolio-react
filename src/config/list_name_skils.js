@@ -6,7 +6,7 @@ const skils = [
         title: 'React.js',
     },
     {
-        title: 'React Navite',
+        title: 'TypeScript',
     },
     {
         title: 'React Native Expo',

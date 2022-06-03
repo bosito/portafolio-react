@@ -4,42 +4,13 @@ import { header_data } from "../config/title_navigation_data";
 import { Link } from 'react-scroll';
 
 export default function NavigationHeader() {
-
-    const fixtedHeaderRef = useRef();
+    const fixtedHeaderRef = useRef(null);
     const [indexNavigation, setIndexNavigation] = useState(0);
     const [titleNavigation, setTitleNavigation] = useState([]);
 
     useEffect(() => {
 
         setTitleNavigation(header_data);
-
-    }, []);
-
-    useEffect(() => {
-
-        const remove_select_nav = (e) => {
-            const actual_scroll_value = e.currentTarget.scrollY;
-            const windowHeigth = e.currentTarget.innerHeight;
-            
-            const val_limit_scroll = [0, windowHeigth, (windowHeigth*2), (windowHeigth*3)];
-
-            if (actual_scroll_value >= val_limit_scroll[0]) {
-                setIndexNavigation(0);
-            } 
-            if (actual_scroll_value >= val_limit_scroll[1]) {
-                setIndexNavigation(1);
-            }
-            if (actual_scroll_value >= val_limit_scroll[2]) {
-                setIndexNavigation(2);
-            }
-            if (actual_scroll_value >= val_limit_scroll[3]) {
-                setIndexNavigation(3);
-            }
-        }
-
-        window.addEventListener("scroll", remove_select_nav, false);
-
-        return () => window.removeEventListener("scroll", remove_select_nav, false);
 
     }, []);
 
@@ -59,7 +30,7 @@ export default function NavigationHeader() {
 
     return (
         <>
-            <nav ref={fixtedHeaderRef} className="NavigationContainer  navigation_fixed" style={{}}>
+            <nav ref={fixtedHeaderRef} className="NavigationContainer  navigation_fixed" >
                 <div className="contenTitleNavigation" >
                     <p className="titleNavigation  t_efect" >Developer</p>
                 </div>
@@ -111,7 +82,5 @@ export default function NavigationHeader() {
             </nav>
 
         </>
-    )
-}
-
-//e.preventDefault();
+    );
+};
