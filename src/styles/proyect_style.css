@@ -144,3 +144,12 @@
     text-align: center;
     transition: 0.5s;
 }
+
+@media screen and (max-width: 480px) {
+    .swiper_principal{
+        height: 25%;
+    }
+    .title_card, .text_card {
+        font-size: 0.8rem;
+    }
+}

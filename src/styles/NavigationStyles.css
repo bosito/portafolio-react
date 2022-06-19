@@ -75,3 +75,10 @@ a {
 .navigation_fixed:hover{
     background-color: rgb(7, 7, 7);
 }
+
+@media screen and (max-width: 480px) {
+    .dphone{
+        display: none;
+        color: red
+    }
+}

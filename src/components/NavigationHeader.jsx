@@ -80,7 +80,7 @@ export default function NavigationHeader() {
                                     onClick={() => select_navigation(index)}
                                     key={index}
                                 >
-                                    <p className={`${indexNavigation === index && "t_efect"} titleNavigation e_efect`} >{data.title}</p>
+                                    <p className={`${indexNavigation === index && "t_efect"} titleNavigation e_efect dphone`} >{data.title}</p>
                                 </Link>
                             )
                         })
@@ -105,7 +105,7 @@ export default function NavigationHeader() {
                                     onClick={() => select_navigation(index)}
                                     key={index}
                                 >
-                                    <p className={`${indexNavigation === index && "t_efect"} titleNavigation e_efect`} >{data.title}</p>
+                                    <p className={`${indexNavigation === index && "t_efect"} titleNavigation e_efect dphone`} >{data.title}</p>
                                 </Link>
                             )
                         })

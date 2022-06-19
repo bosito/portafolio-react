@@ -87,3 +87,15 @@
     transition: 1s;
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 480px) {
+    .t_precent {
+        font-size: 28px;
+    }
+    .t_samp {
+        font-size: 28px;
+    }
+    .titlePrecentacion{
+        height: 40%;
+    }
+}
