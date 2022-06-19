@@ -2,6 +2,7 @@ import React, { useState, forwardRef } from 'react';
 import * as Scroll from 'react-scroll';
 import Lottie from 'react-lottie';
 import dayjs from 'dayjs';
+import { toast } from 'react-toastify';
 import useAddCollectionFireStore from '../../../hooks/useAddCollectionFireStore';
 
 import uderConstrucion from '../../../styles/lottie/under-construction.json';
@@ -36,8 +37,22 @@ export default function Contact() {
             if (dataImputs.name && dataImputs.email && dataImputs.asunto && dataImputs.menssage) {
                 const create_add = dayjs().format('DD/MM/YYYY hh:mm a');
                 addCollection({ ...dataImputs, create_add: create_add });
-                setDataImputs({  name: '', email: '', asunto: '', menssage: '' })
-            };
+                toast.dark('Datos mandados con éxito', {
+                    position: 'bottom-center',
+                    autoClose: 2500,
+                    closeOnClick: true,
+                    progress: undefined
+                })
+                setDataImputs({ name: '', email: '', asunto: '', menssage: '' })
+            } else {
+                toast.error(
+                    'Para mandar un mensaje todos los parámetros son obligatorios.', {
+                    position: 'bottom-center',
+                    autoClose: 2500,
+                    closeOnClick: true,
+                    progress: undefined
+                })
+            }
         };
     };
 
@@ -72,9 +87,6 @@ export default function Contact() {
                                     />
 
                                     <div className="cont_buton_netkork" >
-                                        <a href="https://www.facebook.com/jlRocerTraseur" target="_blank" rel="noreferrer noopener">
-                                            <img src={facebook} alt="facebook" className='icon_net' />
-                                        </a>
                                         <a href="https://www.instagram.com/bosito12/?hl=es-la" target="_blank" rel="noreferrer noopener">
                                             <img src={instagram} alt="instagram" className='icon_net' />
                                         </a>
@@ -186,7 +198,7 @@ function DataForm({ icon, title, extraStiles = {} }) {
 };
 
 const InputComponent = forwardRef((props, ref) => {
-    const { name, placeholder, value, onChange, type='text' } = props;
+    const { name, placeholder, value, onChange, type = 'text' } = props;
     return (
         <div className='inpu_cont' >
             <input
