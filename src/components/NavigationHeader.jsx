@@ -7,6 +7,33 @@ export default function NavigationHeader() {
     const fixtedHeaderRef = useRef(null);
     const [indexNavigation, setIndexNavigation] = useState(0);
     const [titleNavigation, setTitleNavigation] = useState([]);
+    const [clikActive, setClikActive] = useState(true);
+
+    useEffect(() => {
+        const remove_select_nav = (e) => {
+            const actual_scroll_value = e.currentTarget.scrollY;
+            const windowHeigth = e.currentTarget.innerHeight;
+
+            const val_limit_scroll = [0, windowHeigth, (windowHeigth * 2), (windowHeigth * 3)];
+            if (clikActive) {
+                if (actual_scroll_value >= val_limit_scroll[0]) {
+                    setIndexNavigation(0);
+                };
+                if (actual_scroll_value >= val_limit_scroll[1]) {
+                    setIndexNavigation(1);
+                };
+                if (actual_scroll_value >= val_limit_scroll[2]) {
+                    setIndexNavigation(2);
+                };
+                if (actual_scroll_value >= val_limit_scroll[3]) {
+                    setIndexNavigation(3);
+                };
+            };
+        };
+
+        window.addEventListener("scroll", remove_select_nav, true);
+        return () => window.removeEventListener("scroll", remove_select_nav, true);
+    }, [clikActive, indexNavigation]);
 
     useEffect(() => {
 
@@ -26,7 +53,13 @@ export default function NavigationHeader() {
         };
     };
 
-    const select_navigation = (index) => setIndexNavigation(index);
+    const select_navigation = (index) => {
+        setClikActive(false);
+        setIndexNavigation(index);
+        setTimeout(() => {
+            setClikActive(true);
+        }, 800);
+    };
 
     return (
         <>
@@ -76,7 +109,6 @@ export default function NavigationHeader() {
                                 </Link>
                             )
                         })
-
                     }
                 </div>
             </nav>
