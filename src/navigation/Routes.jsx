@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import Home from '../screens/Home';
+import Home from '../screens/home/Home';
 import Project from '../screens/Proyect';
 import Error404 from '../screens/Error404';
 

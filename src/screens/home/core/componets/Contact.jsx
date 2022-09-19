@@ -3,47 +3,47 @@ import * as Scroll from 'react-scroll';
 import Lottie from 'react-lottie';
 import dayjs from 'dayjs';
 import { toast } from 'react-toastify';
-import useAddCollectionFireStore from '../../../hooks/useAddCollectionFireStore';
+import useAddCollectionFireStore from '../../../../hooks/useAddCollectionFireStore';
 
-import uderConstrucion from '../../../styles/lottie/under-construction.json';
-import Adorno from '../../../components/home/Adorno.jsx';
-import adorno_svg from '../../../svg/adorno_file.svg';
-import mail_svg from '../../../svg/mail_svg.svg';
-import map_pin from '../../../svg/map_pin_icon.svg'
-import phone from '../../../svg/local_phone.svg';
-import facebook from '../../../svg/facebook.svg';
-import linkeding from '../../../svg/linkedin.svg';
-import instagram from '../../../svg/instagram.svg';
-import gtithub from '../../../svg/github.svg';
-import enviarIcon from '../../../svg/enviar.svg'
+import uderConstrucion from '../../../../styles/lottie/under-construction.json';
+import Adorno from '../../../../components/home/Adorno.jsx';
 
-import '../../../styles/contact_style.css';
+import adorno_svg from '../../../../svg/adorno_file.svg';
+import mail_svg from '../../../../svg/mail_svg.svg';
+import map_pin from '../../../../svg/map_pin_icon.svg';
+import phone from '../../../../svg/local_phone.svg';
+import linkeding from '../../../../svg/linkedin.svg';
+import instagram from '../../../../svg/instagram.svg';
+import gtithub from '../../../../svg/github.svg';
+import enviarIcon from '../../../../svg/enviar.svg';
+
+import '../css/contact_style.css';
 
 export default function Contact() {
     const { addCollection } = useAddCollectionFireStore();
     const [proyectOrContact, setProyectOrContact] = useState(true);
-    const [dataImputs, setDataImputs] = useState({
+    const [dataInputs, setDataInputs] = useState({
         name: '',
         email: '',
         asunto: '',
         menssage: ''
     });
 
-    const chageInputsValue = (e) => setDataImputs({ ...dataImputs, [e.target.name]: e.target.value });
+    const chageInputsValue = (event) => setDataInputs({ ...dataInputs, [event.target.name]: event.target.value });
 
-    const createNewContact = (e) => {
-        e.preventDefault();
-        if (Object.keys(dataImputs).length > 0) {
-            if (dataImputs.name && dataImputs.email && dataImputs.asunto && dataImputs.menssage) {
+    const createNewContact = (event) => {
+        event.preventDefault();
+        if (Object.keys(dataInputs).length > 0) {
+            if (dataInputs.name && dataInputs.email && dataInputs.asunto && dataInputs.menssage) {
                 const create_add = dayjs().format('DD/MM/YYYY hh:mm a');
-                addCollection({ ...dataImputs, create_add: create_add });
+                addCollection({ ...dataInputs, create_add: create_add });
                 toast.dark('Datos mandados con éxito', {
                     position: 'bottom-center',
                     autoClose: 2500,
                     closeOnClick: true,
                     progress: undefined
-                })
-                setDataImputs({ name: '', email: '', asunto: '', menssage: '' })
+                });
+                setDataInputs({ name: '', email: '', asunto: '', menssage: '' });
             } else {
                 toast.error(
                     'Para mandar un mensaje todos los parámetros son obligatorios.', {
@@ -51,8 +51,8 @@ export default function Contact() {
                     autoClose: 2500,
                     closeOnClick: true,
                     progress: undefined
-                })
-            }
+                });
+            };
         };
     };
 
@@ -61,7 +61,7 @@ export default function Contact() {
             <Scroll.Element className="contact" id='5' >
                 <div className="content_form" >
 
-                    <HeaderContenButons
+                    <HeaderContentButtons
                         contactOnPress={() => setProyectOrContact(true)}
                         proyectOnPress={() => setProyectOrContact(false)}
                     />
@@ -105,7 +105,7 @@ export default function Contact() {
                                         name="name"
                                         onChange={chageInputsValue}
                                         placeholder="Name"
-                                        value={dataImputs.name}
+                                        value={dataInputs.name}
                                     />
 
                                     <InputComponent
@@ -113,21 +113,21 @@ export default function Contact() {
                                         type='email'
                                         onChange={chageInputsValue}
                                         placeholder="Email"
-                                        value={dataImputs.email}
+                                        value={dataInputs.email}
                                     />
 
                                     <InputComponent
                                         name="asunto"
                                         onChange={chageInputsValue}
                                         placeholder="Business"
-                                        value={dataImputs.asunto}
+                                        value={dataInputs.asunto}
                                     />
 
                                     <div className='inpu_cont  inp_messag' >
                                         <textarea
                                             type="text"
                                             name="menssage"
-                                            value={dataImputs.menssage}
+                                            value={dataInputs.menssage}
                                             placeholder='Menssage'
                                             onChange={chageInputsValue}
                                             className='input'
@@ -141,7 +141,6 @@ export default function Contact() {
                                             Send
                                         </button>
                                     </div>
-
 
                                 </form>
                             </div>
@@ -172,7 +171,7 @@ export default function Contact() {
     );
 };
 
-function HeaderContenButons({ proyectOnPress, contactOnPress }) {
+function HeaderContentButtons({ proyectOnPress, contactOnPress }) {
     return (
         <div className="conten_tabs" >
             <div style={{ flex: 1, display: 'flex' }} >
