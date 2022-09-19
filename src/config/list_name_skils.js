@@ -34,6 +34,9 @@ const skils = [
     },
     {
         title: 'Phyton',
+    },
+    {
+        title: 'tailwindcss',
     }
 ];
 

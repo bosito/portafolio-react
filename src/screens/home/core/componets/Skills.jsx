@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Element } from 'react-scroll';
-import ScrollHistori from '../../skils/ScrollHistori';
-import list_name_skils from '../../../config/list_name_skils'
+import ScrollHistori from '../../../../components/skils/ScrollHistori';
+import list_name_skils from '../../../../config/list_name_skils';
 
 //styles
-import '../../../styles/skills.css';
-
+import '../css/skills.css';
 
 export default function Skills() {
     const [listSkills, setListSkills] = useState([]);
@@ -44,7 +43,7 @@ export default function Skills() {
                             }
                         </div>
                         :
-                        <ScrollHistori  />
+                        <ScrollHistori />
                 }
 
             </div>

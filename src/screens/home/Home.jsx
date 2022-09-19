@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Precentation from '../../components/home/sections/Precentation.jsx';
 import Projects from '../../components/home/sections/Proyects.jsx';
-import Skills from '../../components/home/sections/Skills.jsx';
+import Skills from './core/componets/Skills.jsx';
 import Contact from './core/componets/Contact.jsx';
 import FloatTopScroll from './core/componets/FloatTopScroll.jsx';
 
